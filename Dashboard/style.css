@@ -15,7 +15,8 @@
 }
 
 
-*, html {
+*,
+html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -46,8 +47,6 @@ aside {
 /* MAIN */
 
 main {
-    margin-left: 320px; 
+    margin-left: 320px;
     padding: 20px;
 }
-
-
