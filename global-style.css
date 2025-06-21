@@ -128,8 +128,8 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
     gap: 3rem;
+    align-items: center;
 }
 
 .aside-bottom div {
@@ -159,6 +159,15 @@ aside {
     color: var(--white);
     border-radius: 12px;
     margin-top: -3rem;
+}
+
+.aside-bottom span {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    
 }
 
 /* MAIN */
