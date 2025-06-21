@@ -7,6 +7,7 @@
     --green: rgba(10, 201, 71, 1);
     --text-color: rgba(10, 22, 41, 1);
     --background-color: rgba(244, 249, 253, 1);
+    --background-color-2: #ecf3ff;
 
     --h3-size: 1.2rem;
     --h2-size: 2.3rem;
@@ -52,6 +53,15 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 10%;
+}
+
+/* ASIDE TOP */
+
+.aside-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
     gap: 3rem;
 }
@@ -70,19 +80,19 @@ aside {
     height: 50px;
 }
 
-aside ul {
+.aside-top ul {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.3rem;
+    gap: 1rem;
 }
 
-aside ul li {
+.aside-top ul li {
     padding: 11px 45px 11px 9px;
     border-radius: 10px;
 }
 
-aside a {
+.aside-top a, .aside-bottom a {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -91,7 +101,7 @@ aside a {
     color: var(--gray);
 }
 
-aside svg {
+.aside-top svg {
     width: var(--svg-size);
     height: var(--svg-size);
     fill: #7D8592;
@@ -99,7 +109,7 @@ aside svg {
 
 .dashboard-active {
     color: var(--blue);
-    background-color: #ecf3ff;
+    background-color: var(--background-color-2);
     padding: 11px 45px 11px 9px;
 }
 
@@ -110,6 +120,45 @@ aside svg {
 
 .dashboard-active a svg {
     fill: var(--blue);
+}
+
+
+/* ASIDE BOTTOM */
+.aside-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 3rem;
+}
+
+.aside-bottom div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--background-color-2);
+    width: 168px;
+    height: 168px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.aside-bottom div img {
+    width: 140px;
+    position: relative;
+    top: -70px;
+
+}
+
+.aside-bottom div a {
+    gap: 0.5rem;
+    padding: 10px 15px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 12px;
+    margin-top: -3rem;
 }
 
 /* MAIN */
