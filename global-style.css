@@ -1,0 +1,120 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(125, 133, 146, 1);
+    --blue: rgba(63, 140, 255, 1);
+    --yellow: rgba(255, 189, 33, 1);
+    --pink: rgba(222, 146, 235, 1);
+    --green: rgba(10, 201, 71, 1);
+    --text-color: rgba(10, 22, 41, 1);
+    --background-color: rgba(244, 249, 253, 1);
+
+    --h3-size: 1.2rem;
+    --h2-size: 2.3rem;
+    --p-size: 1rem;
+    --svg-size: 1.5rem;
+}
+
+
+*,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Nunito Sans", sans-serif;
+    padding-top: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ASIDE */
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: var(--white);
+    margin: 20px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 25px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+aside ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+aside ul li {
+    padding: 11px 45px 11px 9px;
+    border-radius: 10px;
+}
+
+aside a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    font-size: var(--p-size);
+    color: var(--gray);
+}
+
+aside svg {
+    width: var(--svg-size);
+    height: var(--svg-size);
+    fill: #7D8592;
+}
+
+.dashboard-active {
+    color: var(--blue);
+    background-color: #ecf3ff;
+    padding: 11px 45px 11px 9px;
+}
+
+.dashboard-active a {
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.dashboard-active a svg {
+    fill: var(--blue);
+}
+
+/* MAIN */
+
+main {
+    margin-left: 320px;
+    padding: 24px;
+}
