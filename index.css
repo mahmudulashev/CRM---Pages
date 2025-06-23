@@ -139,15 +139,69 @@
     width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: start;
-    padding: 1.5rem 0;
+    padding: 1.5rem;
     background-color: var(--white);
     border-radius: var(--main-border-radius);
     box-shadow: var(--box-shadow);
 }
 
+.hero-right > span {
+    width: 100%;
+}
+
 .hero span h3 {
     font-size: 1.5rem;
     color: var(--text-color);
+}
+
+.hero-right-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1.9rem;
+    margin-top: 2rem;
+
+}
+
+.hero-right-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    border-left: 4px solid rgba(222, 146, 235, 1);
+    padding-left: 1rem;
+}
+
+.hero-right-card:nth-child(1) {
+    border-left-color: var(--blue);
+}
+
+.hero-right-card span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 20rem;
+    height: 3rem;
+    
+}
+
+.hero-right-card span h4 {
+    width: 80%;
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.hero-right-card span h5 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--background-color);
+    padding: 0.5rem;
+    border-radius: 7px;
 }
