@@ -68,8 +68,8 @@
 }
 
 .current {
-    width: 20%;
-    height: 700px;
+    width: 300px;
+    height:1307px;
     background-color: var(--white);
     box-shadow: var(--box-shadow);
     align-items: center;
@@ -92,13 +92,11 @@
     margin: 10px;
 }
 
+
+
 .current-div1 p {
     color: var(--gray);
     font-size: var(--p-size);
-}
-
-.current {
-    width: 30%;
 }
 
 .current-div1 a {
@@ -120,22 +118,32 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    margin: 15px;
 
 }
 
 .current-ota-section {
     display: flex;
-    width: 100%;
+    width: 50%;
 }
 
 .task {
     width: 70%;
     padding: 20px 45px 10px 0px;
 
+
+}
+.dsp{
+    display: flex;
+}
+
+.bolib-ber {
+    display: flex;
+    width: 100%;
 }
 
 .active-task-btn {
-    padding: 5px 200px;
+    padding: 5px;
     border: none;
     background-color: #E6EDF5;
     box-shadow: var(--box-shadow);
@@ -143,7 +151,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
+    width: 900px;
+    height: 30px;
 }
 
 .active-task-div {
@@ -151,12 +161,41 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
-.people-div{
-    margin: 20px;
-    width: auto;
-    height: 100px;
+
+.people-div {
+    width: 830px;
+    height: 120px;
     border-radius: 10px;
     background-color: var(--white);
     box-shadow: var(--box-shadow);
+    align-items: center;
+    text-align: center;
+    padding: 50px 15px;
+    margin: 15px;
+}
+
+.orab-turuvchi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level h4 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: var(--yellow);
+}
+
+.tugma-div button {
+    color: #00D097;
+    background-color: #E0F9F2;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
