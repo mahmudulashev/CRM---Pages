@@ -87,7 +87,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.hero-left span {
+.hero-left span, .hero-right span {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,7 +96,7 @@
     padding-top: 0.7rem;
 }
 
-.hero-left span a {
+.hero-left span a, .hero-right span a {
     font-size: var(--p-size);
     color: var(--blue);
     text-decoration: none;
@@ -133,6 +133,14 @@
 
 /* HERO-RIGHT */
 .hero-right {
-
+    height: 33rem;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    background-color: var(--white);
+    border-radius: var(--main-border-radius);
+    box-shadow: var(--box-shadow);
 }
