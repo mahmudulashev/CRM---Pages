@@ -64,6 +64,12 @@ aside {
     justify-content: start;
     gap: 10%;
     box-shadow: var(--box-shadow);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+aside::-webkit-scrollbar {
+    display: none;
 }
 
 /* ASIDE TOP */
