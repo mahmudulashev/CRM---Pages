@@ -20,6 +20,19 @@
     --main-font: "Nunito Sans", sans-serif;
 }
 
+.line {
+    position: absolute;
+    top: 228.5px;
+    left: 198px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--blue);
+    border-radius: var(--secondary-border-radius);
+    margin: 1rem 0;
+    rotate: -90deg;
+    transform-origin: left;
+}
+
 .btn-hero {
     background-color: var(--blue);
     padding: 10px 15px;
