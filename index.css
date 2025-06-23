@@ -24,11 +24,12 @@
 
 .line {
     position: absolute;
-    top: 169px;
-    left: 200px;
+    top: 167px;
+    left: 198px;
     width: 50px;
-    height: 7px;
-    background-color: var(--gray);
+    height: 4px;
+    background-color: var(--blue);
+    border-radius: var(--secondary-border-radius);
     margin: 1rem 0;
     rotate: -90deg;
     transform-origin: left;
