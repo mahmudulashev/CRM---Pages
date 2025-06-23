@@ -131,6 +131,19 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    border: 3px solid var(--blue);
+}
+
+#hero-card-img {
+    border-right: 3px solid rgb(231, 228, 228);
+}
+
+.hero-card-level {
+    border: 1px solid gray;
+    padding: 0.1rem 0.3rem;
+    border-radius: 7px;
+    color: gray;
+    margin-top: 0.2rem;
 }
 
 /* HERO-RIGHT */
