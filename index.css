@@ -1,0 +1,48 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(125, 133, 146, 1);
+    --blue: rgba(63, 140, 255, 1);
+    --yellow: rgba(255, 189, 33, 1);
+    --pink: rgba(222, 146, 235, 1);
+    --green: rgba(10, 201, 71, 1);
+    --text-color: rgba(10, 22, 41, 1);
+    --background-color: rgba(244, 249, 253, 1);
+    --background-color-2: #ecf3ff;
+    --box-shadow: rgba(0, 0, 0, 0.051) 0px 4px 12px;
+
+    --h3-size: 1.2rem;
+    --h2-size: 2.3rem;
+    --p-size: 1rem;
+    --svg-size: 1.5rem;
+    --main-border-radius: 24px;
+    --secondary-border-radius: 14px;
+
+    --main-font: "Nunito Sans", sans-serif;
+}
+
+/* TOP-HERO */
+
+.top-hero > span p {
+    font-size: var(--p-size);
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+.hero-calendar {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: rgba(230, 237, 245, 1);
+    padding: 1rem;
+    border-radius: var(--secondary-border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.hero-calendar > h3 {
+    font-size: var(--h3-size);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
