@@ -84,6 +84,7 @@
     padding: 1.5rem 0;
     background-color: var(--white);
     border-radius: var(--main-border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 .hero-left span {
