@@ -1,0 +1,21 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(125, 133, 146, 1);
+    --blue: rgba(63, 140, 255, 1);
+    --yellow: rgba(255, 189, 33, 1);
+    --pink: rgba(222, 146, 235, 1);
+    --green: rgba(10, 201, 71, 1);
+    --text-color: rgba(10, 22, 41, 1);
+    --background-color: rgba(244, 249, 253, 1);
+    --background-color-2: #ecf3ff;
+    --box-shadow: rgba(0, 0, 0, 0.051) 0px 4px 12px;
+
+    --h3-size: 1.2rem;
+    --h2-size: 2.3rem;
+    --p-size: 1rem;
+    --svg-size: 1.5rem;
+    --main-border-radius: 24px;
+    --secondary-border-radius: 14px;
+
+    --main-font: "Nunito Sans", sans-serif;
+}
