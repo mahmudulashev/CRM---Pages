@@ -136,6 +136,9 @@
 .dsp{
     display: flex;
 }
+.name{
+    width: 40px;
+}
 
 .bolib-ber {
     display: flex;
