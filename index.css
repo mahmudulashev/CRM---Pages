@@ -218,3 +218,99 @@
     padding: 0.5rem;
     border-radius: 7px;
 }
+
+
+/* PROJECTS */
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: var(--main-border-radius);
+    margin-top: 3em;
+}
+
+.project-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    padding: 1.5rem 0;
+}
+
+.project-left > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 90%;
+    padding-top: 0.7rem;
+}
+
+.projects span a {
+    font-size: var(--p-size);
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.projects-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+
+}
+
+.projects-card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 148px;
+    padding: 1.5rem 0;
+    background-color: var(--white);
+    border-radius: var(--main-border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 1rem;
+    border-right: 1px solid black;
+}
+
+.card-left-top {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 1rem;
+
+}
+
+.card-left-top span h4 {
+    font-size: var(--h3-size);
+    color: var(--text-color);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    
+}
+
+.card-left-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+.card-left-bottom h4 {
+    color: orange;
+    font-weight: 600;
+}
