@@ -11,9 +11,9 @@ function qoshish(task) {
 
     let progressClass = '';
      if (task.progress === 'Done') {
-        priorityClass = 'sariq';
-    } else if (task.progress === 'Low') {
-        priorityClass = 'yashil';
+       progressClass = 'done';
+    } else if (task.progress === 'In Progress') {
+        progressClass = 'in-progress';
     }
 
 

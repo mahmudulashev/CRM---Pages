@@ -313,8 +313,6 @@
 }
 
 .tugma-div button {
-    color: #00D097;
-    background-color: #E0F9F2;
     border-radius: 5px;
     padding: 5px;
     border: none;
@@ -346,4 +344,15 @@
     width: 100px;
     height: 10px;
     border-radius: 5px;
+}
+
+/* PROGRESS */
+.done {
+    color: #00D097;
+    background-color: #E0F9F2;
+}
+
+.in-progress {
+    color: var(--blue);
+    background-color: rgba(63, 140, 255, 0.1199);
 }
