@@ -9,6 +9,14 @@ function qoshish(task) {
         priorityClass = 'yashil';
     }
 
+    let progressClass = '';
+     if (task.progress === 'Done') {
+        priorityClass = 'sariq';
+    } else if (task.progress === 'Low') {
+        priorityClass = 'yashil';
+    }
+
+
     people.innerHTML += `
         <div class="people-div">
             <div class="orab-turuvchi">
@@ -31,10 +39,10 @@ function qoshish(task) {
                 </div>
                 <div class="level">
                     <p>Priority</p>
-                    <h4 class="priority ${priorityClass}">${task.Priority}</h4>
+                    <h4 class="${priorityClass}">${task.Priority}</h4>
                 </div>
                 <div class="tugma-div">
-                    <button>${task.progress}</button>
+                    <button class="${progressClass}">${task.progress}</button>
                 </div>
                 <div class="aynala">
                     <img src="${task.progressBar}" alt="">

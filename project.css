@@ -340,3 +340,10 @@
 .kok {
     color: var(--blue);
 }
+
+.yashil-bar {
+    background-color: var(--green);
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+}

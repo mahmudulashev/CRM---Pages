@@ -7,7 +7,7 @@ let data = [
         SpentTime: '1d 2h',
         Assignee: './assets/profile-pics/project-pic/project-pic-1.png',
         Priority: 'Medium',
-        progress: 'In Progress',
+        progress: 'Done',
         progressBar: './assets/profile-pics/project-pic/project-pic-ransiz.svg',
         uuid: 1,
 
