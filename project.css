@@ -336,7 +336,6 @@
     text-align: center;
     align-items: center;
     display: flex;
-    color: var(--yellow);
 }
 
 .tugma-div button {
@@ -349,4 +348,28 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+/* LEVEL */
+.yashil {
+    color: var(--green);
+}
+
+.sariq {
+    color: var(--yellow);
+}
+
+.binafsha {
+    color: var(--pink);
+}
+
+.kok {
+    color: var(--blue);
+}
+
+.yashil-bar {
+    background-color: var(--green);
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
 }
