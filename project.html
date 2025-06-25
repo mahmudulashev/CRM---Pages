@@ -199,16 +199,34 @@
                     <form action="">
                         <label for="name">Task Name</label>
                         <input type="text" name="Task Name" id="name" placeholder="Task Name">
-                        <label for="design">Design</label>
-                        <input type="text" name="design" id="design" placeholder="Design">
-                            <div class="div-input1">
-                            <label  for="estimate" >Estimate</label>
+                        <label for="design">Design <select id="design">
+                                <option value="design">Design</option>
+                                <option value="mobile">Mobil Ilova</option>
+                                <option value="desktop">Desktop Dastur</option>
+                                <option value="web">Web Dastur</option>
+                            </select>
+                        </label>
+                        <div class="div-input1">
+                            <label for="estimate">Estimate</label>
                             <input type="time" name="estimate" id="estimate" placeholder="estimate">
-                            </div>
-                            <div class="div-input2">
+                        </div>
+                        <div class="div-input2">
                             <label for="estimate">Estimate</label>
                             <input type="date" name="estimate" id="estimate" placeholder="estimate">
-                            </div>
+                        </div>
+                         <label for="medium">Medium <select id="medium">
+                                <option value="medium">Medium</option>
+                                <option value="low">Low</option>
+                            </select>
+                        </label>
+                        <label for="select">Select Assignee <select id="select">
+                                <option value="design">Medium</option>
+                                <option value="mobile">Low</option>
+                            </select>
+                        </label>
+                        <label for="description">Description
+                            <input type="text" placeholder="Add some description of the task" id="description">
+                        </label>
 
 
                     </form>
@@ -415,6 +433,7 @@
 
         function yopish() {
             document.getElementById("projectPage").style.display = "none";
+            document.querySelectorAll("body").style.backgroundColor = "red"
         }
 
     </script>

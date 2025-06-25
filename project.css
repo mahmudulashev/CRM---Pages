@@ -206,7 +206,8 @@
     padding: 30px;
 
 }
-#estimate{
+
+#estimate {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid grey;
@@ -215,22 +216,26 @@
     width: 250px;
     flex-direction: column;
 }
-.label-ikki-div{
-    display: flex;
-}
-.label-ikki-div label{
-    display: flex;
-}
-.div-input1{
-    display: flex;
 
-}
-.div-input2{
+.label-ikki-div {
     display: flex;
 }
 
+.label-ikki-div label {
+    display: flex;
+}
 
-    
+.div-input1 {
+    display: flex;
+
+}
+
+.div-input2 {
+    display: flex;
+}
+
+
+
 
 
 .add-orab-div1 {
@@ -240,7 +245,7 @@
     right: -800px;
     background-color: var(--white);
     width: 700px;
-    height: 500px;
+    height: auto;
     display: flex;
     align-items: center;
     box-shadow: var(--box-shadow);
@@ -274,10 +279,29 @@
     width: 500px;
 }
 
+#medium {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: block;
+    width: 500px;
+}
+
+#select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: block;
+    width: 500px;
+
+}
+
 
 .back-btn {
     padding: 8px 15px;
-    background-color:var(--white);
+    background-color: var(--white);
     box-shadow: var(--box-shadow);
     color: rgb(0, 0, 0);
     border: none;
@@ -286,6 +310,16 @@
     justify-self: flex-end;
     display: flex;
     align-items: center;
+}
+
+#description {
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: block;
+    width: 500px;
+    
 }
 
 
