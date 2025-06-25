@@ -69,7 +69,7 @@
 
 .current {
     width: 300px;
-    height:1325px;
+    height: 1325px;
     background-color: var(--white);
     box-shadow: var(--box-shadow);
     align-items: center;
@@ -133,7 +133,8 @@
 
 
 }
-.dsp{
+
+.dsp {
     display: flex;
 }
 
@@ -141,35 +142,126 @@
     display: flex;
     width: 100%;
 }
-.name{
+
+.name {
     width: 150px;
 }
-.data{
+
+.data {
     width: 100px;
 }
-.time{
+
+.time {
     width: 100px;
 }
-.text-img{
+
+.text-img {
     width: 100px;
 }
-.level{
+
+.level {
     width: 100px;
     align-items: center;
     text-align: center;
 
 }
+
 .level p {
     align-items: center;
     text-align: center;
     display: flex;
 }
-.tugma-div{
+
+.tugma-div {
     width: 100px;
 }
-.aylana{
+
+.aylana {
     width: 100px;
 }
+
+.add-div {
+    position: relative;
+    width: 500px;
+    padding: 500px;
+    background-color: black;
+}
+
+.btn-hero {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: grab;
+}
+
+.plus {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.add-orab-turuvchi {
+    padding: 30px;
+
+}
+
+.add-orab-div1 {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    right: -800px;
+    background-color: var(--white);
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+
+}
+
+
+.btn-add-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#name {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: block;
+    width: 500px;
+}
+
+#design {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: block;
+    width: 500px;
+}
+
+
+.back-btn {
+    padding: 8px 15px;
+    background-color:var(--white);
+    box-shadow: var(--box-shadow);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: grab;
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
 
 
 
