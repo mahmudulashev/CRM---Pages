@@ -206,6 +206,32 @@
     padding: 30px;
 
 }
+#estimate{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+}
+.label-ikki-div{
+    display: flex;
+}
+.label-ikki-div label{
+    display: flex;
+}
+.div-input1{
+    display: flex;
+
+}
+.div-input2{
+    display: flex;
+}
+
+
+    
+
 
 .add-orab-div1 {
     position: absolute;
