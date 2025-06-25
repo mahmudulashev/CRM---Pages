@@ -14,6 +14,10 @@ function qoshish(task) {
        progressClass = 'done';
     } else if (task.progress === 'In Progress') {
         progressClass = 'in-progress';
+    } else if (task.progress === 'To Do') {
+        progressClass = 'to-do'
+    } else if (task.progress === 'In Review'){
+        progressClass = 'in-review'
     }
 
 

@@ -371,12 +371,13 @@
 
 .tugma-div button {
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px 15px;
     border: none;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
+    
 }
 
 /* LEVEL */
@@ -412,4 +413,14 @@
 .in-progress {
     color: var(--blue);
     background-color: rgba(63, 140, 255, 0.1199);
+}
+
+.to-do {
+    color: var(--gray);
+    background-color: rgba(125, 133, 146, 0.14);
+}
+
+.in-review {
+    color: rgb(241, 99, 123);
+    background-color: rgba(196, 24, 230, 0.11);
 }
