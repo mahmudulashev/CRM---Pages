@@ -313,12 +313,13 @@
 }
 
 #description {
-    padding: 2px;
-    border-radius: 10px;
+    padding:  50px;
+    border: 10px;
     border: 1px solid grey;
     margin: 5px;
     display: block;
     width: 500px;
+
     
 }
 
