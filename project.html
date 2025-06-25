@@ -196,7 +196,7 @@
                         <h4>Add Task</h4>
                         <button class="back-btn" onclick="yopish()"><i class="fa-solid fa-x"></i></button>
                     </div>
-                    <form action="">
+                    <form class="input-form" action="">
                         <label for="name">Task Name</label>
                         <input type="text" name="Task Name" id="name" placeholder="Task Name">
                         <label for="design">Design <select id="design">
@@ -206,15 +206,17 @@
                                 <option value="web">Web Dastur</option>
                             </select>
                         </label>
-                        <div class="div-input1">
-                            <label for="estimate">Estimate</label>
-                            <input type="time" name="estimate" id="estimate" placeholder="estimate">
+                        <div class="input-joylashuv">
+                            <div class="div-input1">
+                                <label for="estimate">Estimate</label>
+                                <input type="time" name="estimate" id="estimate" placeholder="estimate">
+                            </div>
+                            <div class="div-input2">
+                                <label for="estimate">Estimate</label>
+                                <input type="date" name="estimate" id="estimate" placeholder="estimate">
+                            </div>
                         </div>
-                        <div class="div-input2">
-                            <label for="estimate">Estimate</label>
-                            <input type="date" name="estimate" id="estimate" placeholder="estimate">
-                        </div>
-                         <label for="medium">Medium <select id="medium">
+                        <label for="medium">Medium <select id="medium">
                                 <option value="medium">Medium</option>
                                 <option value="low">Low</option>
                             </select>
@@ -227,10 +229,11 @@
                         <label for="description">Description
                             <input type="text" placeholder="Add some description of the task" id="description">
                         </label>
-                        
+
 
 
                     </form>
+                    <button class="save">Save Task</button>
                 </div>
             </div>
 
