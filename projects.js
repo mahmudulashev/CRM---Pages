@@ -1,5 +1,6 @@
-import data from './data.js';
+import { data, employees } from './data.js';
 let people = document.getElementById('people');
+
 
 function qoshish(task) {
     let priorityClass = '';
@@ -21,8 +22,8 @@ function qoshish(task) {
     }
 
 
-    people.innerHTML += `
-        <div class="people-div">
+    
+      let peopleDiv =  `<div class="people-div">
             <div class="orab-turuvchi">
                 <div class="name">
                     <p>Task Name</p>
@@ -53,9 +54,14 @@ function qoshish(task) {
                 </div>
             </div>
         </div>`;
+
+        return peopleDiv;
 }
 
+let html = '';
 for (let i = 0; i < data.length; i++) {
-    qoshish(data[i]);
+    html += qoshish(data[i]);
 }
+people.innerHTML = html;
+
 

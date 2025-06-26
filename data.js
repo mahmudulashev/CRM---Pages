@@ -1,6 +1,6 @@
 
 
-let data = [ 
+ export const data = [ 
     {
         taskName: 'Research',
         Estimate: '2d 4h',
@@ -71,6 +71,90 @@ let data = [
 ];
 
 
-export default data;
+
+
+export const employees = [
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-9.png',
+        name: 'Evan Yates',
+        email: 'evan.yates@example.com',
+        gender: 'Male',
+        birthday: 'Apr 12, 1995',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-8.png',
+        name: 'Oscar Holloway',
+        email: 'oscar.holloway@example.com',
+        gender: 'Male',
+        birthday: 'Jan 1, 1990',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-4.png',
+        name: 'Louis Castro',
+        email: 'louis.castro@example.com',
+        gender: 'Male',
+        birthday: 'Apr 12, 1995',
+        fullAge: '30',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-2.png',
+        name: 'James Williamson',
+        email: 'james.williamson@example.com',
+        gender: 'Male',
+        birthday: 'Jan 1, 1990',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-3.png',
+        name: 'Emily Tyler',
+        email: 'emily.tyler@example.com',
+        gender: 'Female',
+        birthday: 'Jan 1, 1990',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-1.png',
+        name: 'Shawn Stone',
+        email: 'shawn.stone@example.com',
+        gender: 'Male',
+        birthday: 'Jan 1, 1990',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-5.png',
+        name: 'Blake Silva',
+        email: 'blake.silva@example.com',
+        gender: 'Male',
+        birthday: 'Jan 1, 1990',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+    {
+        img: './assets/profile-pics/hero-pics/hero-pic-7.png',
+        name: 'Joel Phillips',
+        email: 'joel.phillips@example.com',
+        gender: 'Male',
+        birthday: 'Jan 1, 1990',
+        fullAge: '33',
+        position: 'Software Engineer',
+        level: 'Middle'
+    },
+
+]
 
 
