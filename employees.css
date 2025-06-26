@@ -20,6 +20,18 @@
     --main-font: "Nunito Sans", sans-serif;
 }
 
+.line {
+    position: absolute;
+    top: 416px;
+    left: 198px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--blue);
+    border-radius: var(--secondary-border-radius);
+    margin: 1rem 0;
+    rotate: -90deg;
+    transform-origin: left;
+}
 
 /* TOP-HERO */
 
