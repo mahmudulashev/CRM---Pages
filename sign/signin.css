@@ -1,0 +1,251 @@
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: rgb(242, 247, 252);
+}
+
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(125, 133, 146, 1);
+    --blue: rgba(63, 140, 255, 1);
+    --yellow: rgba(255, 189, 33, 1);
+    --pink: rgba(222, 146, 235, 1);
+    --green: rgba(10, 201, 71, 1);
+    --text-color: rgba(10, 22, 41, 1);
+    --background-color: rgba(244, 249, 253, 1);
+    --background-color-2: #ecf3ff;
+    --box-shadow: rgba(0, 0, 0, 0.051) 0px 4px 12px;
+
+
+    --h3-size: 1.2rem;
+    --h2-size: 2.3rem;
+    --p-size: 1rem;
+    --svg-size: 1.5rem;
+    --main-border-radius: 24px;
+    --secondary-border-radius: 14px;
+
+    --main-font: "Nunito Sans", sans-serif;
+}
+
+.main2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-side {
+    background-color: var(--blue);
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 100px;
+    gap: 30px;
+}
+
+.logo-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.heading2 {
+    color: var(--white);
+    font-size: var(--h2-size);
+}
+
+.heading3 {
+    font-size: var(--h2-size);
+    color: var(--white);
+    word-spacing: 10px;
+    font-weight: 550;
+    padding-bottom: 40px;
+}
+
+.right-side {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingjon {
+    font-size: var(--h2-size);
+    padding-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    color: var(--gray);
+}
+
+#email {
+    width: 403px;
+    height: 48px;
+    border: 1px solid #7d869439;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    padding-left: 30px;
+    color: var(--gray);
+    font-size: var(--p-size);
+}
+
+
+#password {
+    width: 403px;
+    height: 48px;
+    border: 1px solid #7d869439;
+    border-radius: 10px;
+ 
+}
+
+.containerr {
+    display: flex;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.forgetP {
+    margin-left: 160px;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.remember {
+    margin-left: 5px;
+}
+
+.wrapperr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.btnGo {
+    width: 178px;
+    height: 48px;
+    background-color: var(--blue);
+    border: transparent;
+    font-size: var(--p-size);
+    border-radius: 15px;
+    color: var(--white);
+}
+
+.newAcc {
+    font-size: var(--h3-size);
+    color: var(--blue);
+    text-decoration: none;
+}
+
+
+
+/* VALID PHONE */
+.main3 {
+    display: flex;
+    gap: 50px;
+}
+
+.verifying-side {
+    width: 346px;
+    height: 100vh;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 20px;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.logoo {
+    width: 50px;
+    height: 50px;
+}
+
+.get {
+    width: 246px;
+}
+
+.main-side {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.step {
+    font-size: var(--p-size);
+    color: var(--blue);
+    padding-top: 50px;
+}
+
+.information {
+    width: 403px;
+    height: 88px;
+    background-color: #F4F9FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.text1 {
+    font-size: var(--p-size);
+    color: var(--blue);
+}
+
+.sms-wrapper {
+    display: flex;
+}
+
+select {
+    width: 74px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #6d748139;
+}
+
+select option {
+    color: var(--gray);
+}
+
+.num {
+    width: 313px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #6d748139; 
+}
+
+.raqam-wrapper {
+    display: flex;
+    gap: 20px;
+}
