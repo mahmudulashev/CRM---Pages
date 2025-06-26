@@ -6,7 +6,7 @@ let data = [
         Estimate: '2d 4h',
         SpentTime: '1d 2h',
         Assignee: './assets/profile-pics/project-pic/project-pic-1.png',
-        Priority: 'Medium',
+        Priority: 'Low',
         progress: 'Done',
         progressBar: './assets/profile-pics/project-pic/project-pic-ransiz.svg',
         uuid: 1,

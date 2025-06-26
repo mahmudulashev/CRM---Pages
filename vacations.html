@@ -18,7 +18,9 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
 
 
     <!-- STYLES -->
@@ -38,8 +40,8 @@
             <nav>
                 <ul>
                     <!-- DASHBOARD -->
-                    <li class="dashboard-active"><a href="./index.html"> <svg width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <li><a href="./index.html"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M6 3C4.34315 3 3 4.34315 3 6V8C3 9.65685 4.34315 11 6 11H8C9.65685 11 11 9.65685 11 8V6C11 4.34315 9.65685 3 8 3H6ZM16 3C14.3431 3 13 4.34315 13 6V8C13 9.65685 14.3431 11 16 11H18C19.6569 11 21 9.65685 21 8V6C21 4.34315 19.6569 3 18 3H16ZM3 16C3 14.3431 4.34315 13 6 13H8C9.65685 13 11 14.3431 11 16V18C11 19.6569 9.65685 21 8 21H6C4.34315 21 3 19.6569 3 18V16ZM16 13C14.3431 13 13 14.3431 13 16V18C13 19.6569 14.3431 21 16 21H18C19.6569 21 21 19.6569 21 18V16C21 14.3431 19.6569 13 18 13H16Z" />
                             </svg> Dashboard</a>
@@ -64,8 +66,8 @@
                     </li>
 
                     <!-- VACATION -->
-                    <li><a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                    <li class="dashboard-active"><a href="./vacations.html"><svg width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M15.5066 8.79191L15.4969 4.00276C15.4974 2.34482 14.1559 1.00046 12.5007 1.00004C10.8455 0.999621 9.50339 2.34331 9.50297 4.00125L9.49337 8.79191L3.09998 12.0137C2.42549 12.3535 2 13.0444 2 13.7997V14.8043C2 15.426 2.56138 15.8971 3.17369 15.7891L9.49245 14.6746V17.2007L8.45276 18.4579C8.15621 18.8164 7.99396 19.2672 7.99396 19.7325V20.7663C7.99396 21.4018 8.57916 21.8762 9.20099 21.7446L12.5007 21.0463L15.7769 21.7431C16.399 21.8754 16.9849 21.401 16.9849 20.765V19.7256C16.9849 19.2645 16.8256 18.8175 16.5339 18.4604L15.5075 17.2039V14.6746L21.8263 15.7891C22.4386 15.8971 23 15.426 23 14.8043V13.7997C23 13.0444 22.5745 12.3535 21.9 12.0137L15.5066 8.79191Z" />
                             </svg>
@@ -166,14 +168,20 @@
 
 
 
-                                  <!-- ================= YOU CAN ADD ANY CONTENT HERE ================= -->
+        <!-- ================= YOU CAN ADD ANY CONTENT HERE ================= -->
 
 
 
         <!-- TOP-HERO -->
         <section class="top-hero">
-            <h2 class="main-h2">Asosiy Sarlavha</h2>
-
+            <div class="top-hero-div">
+                <h2 class="vacations-h2">Vacations</h2>
+                <div>
+                    <button class="vacations-btn">Employees vacations</button>
+                    <button class="vacations-btn1">Calendar</button>
+                </div>
+                <button class="vacations-add-btn"><span>+</span>Add Request</button>
+            </div>
         </section>
 
     </main>
