@@ -1,4 +1,4 @@
-import { data, employees } from './data.js';
+import { data } from './data.js';
 let people = document.getElementById('people');
 
 
