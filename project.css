@@ -230,6 +230,16 @@
     flex-direction: column;
 }
 
+#kun {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    display: flex;
+    width: 23 0px;
+    flex-direction: column;
+}
+
 .label-ikki-div {
     display: flex;
 }
@@ -250,7 +260,8 @@
     flex-direction: column;
 
 }
-.input-joylashuv{
+
+.input-joylashuv {
     display: flex;
 }
 
