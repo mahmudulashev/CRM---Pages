@@ -107,7 +107,7 @@
     width: 100%;
     align-items: center;
     background-color: var(--white);
-    padding: 1rem;
+    padding: 1.5rem;
     box-shadow: var(--box-shadow);
     border-radius: var(--secondary-border-radius);
 
