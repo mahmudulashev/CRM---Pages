@@ -1,0 +1,204 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(125, 133, 146, 1);
+    --blue: rgba(63, 140, 255, 1);
+    --yellow: rgba(255, 189, 33, 1);
+    --pink: rgba(222, 146, 235, 1);
+    --green: rgba(10, 201, 71, 1);
+    --text-color: rgba(10, 22, 41, 1);
+    --background-color: rgba(244, 249, 253, 1);
+    --background-color-2: #ecf3ff;
+    --box-shadow: rgba(0, 0, 0, 0.051) 0px 4px 12px;
+
+    --h3-size: 1.2rem;
+    --h2-size: 2.3rem;
+    --p-size: 1rem;
+    --svg-size: 1.5rem;
+    --main-border-radius: 24px;
+    --secondary-border-radius: 14px;
+
+    --main-font: "Nunito Sans", sans-serif;
+}
+
+.line {
+    position: absolute;
+    top: 416px;
+    left: 198px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--blue);
+    border-radius: var(--secondary-border-radius);
+    margin: 1rem 0;
+    rotate: -90deg;
+    transform-origin: left;
+}
+
+/* TOP-HERO */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: rgba(230, 237, 245, 1);
+    padding: 0.5rem;
+    width: 310px;
+    border-radius: var(--main-border-radius);
+}
+
+.hero-button {
+    width: 151px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+
+
+}
+
+.active {
+    width: 151px;
+    border-radius: var(--main-border-radius);
+    background-color: var(--blue);
+    color: white;
+    box-shadow: var(--box-shadow);
+}
+
+.hero-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: var(--secondary-border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.add-employee {
+    width: 155px;
+    height: 42px;
+    border-radius: var(--secondary-border-radius);
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+}
+
+/* EMPLOYEE */
+.employees-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.employees-name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: var(--white);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--secondary-border-radius);
+
+
+}
+
+
+.employees-name img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.employees-name span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 33%;
+}
+
+.employees-name .employee-name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.employees-name h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}
+
+.employees-name p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: rgba(145, 146, 158, 1);
+
+}
+
+.hero-card-level {
+    border: 1px solid gray;
+    padding: 0.3rem;
+    border-radius: 7px;
+    color: gray;
+    width: fit-content;
+}
+
+.more {
+  background-color: var(--background-color);
+  padding: 0.8rem 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* POPUP */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+    display: none;
+}
+
+.popup.activ {
+    display: flex;
+}
+
