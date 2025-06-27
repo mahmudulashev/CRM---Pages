@@ -1,4 +1,4 @@
-import { data } from './data.js';
+import { projects } from './data.js';
 let people = document.getElementById('people');
 
 
@@ -59,8 +59,8 @@ function qoshish(task) {
 }
 
 let html = '';
-for (let i = 0; i < data.length; i++) {
-    html += qoshish(data[i]);
+for (let i = 0; i < projects[0].tasks.length; i++) {
+    html += qoshish(projects[0].tasks[i]);
 }
 people.innerHTML = html;
 
