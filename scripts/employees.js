@@ -51,3 +51,16 @@ function addEmployee(employee) {
 for (let i = 0; i < employees.length; i++) {
     employeesDiv.innerHTML += addEmployee(employees[i]);
 }
+
+  const btn1 = document.getElementById("close-popup");
+        const popup = document.querySelector(".popup");
+        const addEmployeeBtn = document.querySelector(".add-employee");
+
+        // Function to close the popup
+        function closePopup() {
+            popup.style.display = "none";
+        }
+        btn1.addEventListener("click", closePopup);  
+        addEmployeeBtn.addEventListener("click", () => {
+            popup.style.display = "block";
+        });
