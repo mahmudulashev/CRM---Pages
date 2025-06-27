@@ -84,3 +84,45 @@
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
+.vacation-section{
+    width: 100%;
+    height: 100px;
+    background-color: var(--background-color-2);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 5px 0px 5px;
+    padding: 10px;
+}
+.vacations-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vacation-div1{
+    width: 130%;
+}
+.vacation-div1 p {
+    color: var(--gray);
+
+
+}
+
+.vacation-div{
+    margin: 30px;
+    width: 100%;
+
+}
+.vacation-div p{
+    color: var(--gray);
+    
+}
+.name-gmail{
+    display: block ;
+    align-items: center;
+    text-align: center;
+    /* display: flex; */
+}
+.img-text-div{
+    display: flex;
+}
