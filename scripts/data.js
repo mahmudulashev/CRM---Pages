@@ -90,8 +90,7 @@ export const employees = [
 export const projects = [
     {
         name: 'Medical App (iOS native)',
-        pn: 'PN0001265',
-        photo: '',
+        pn: 'PN0001266',
         created: 'Jan 1, 2023',
         description: 'App for maintaining your medical record, making appointments with a doctor, storing prescriptions',
         reporter: employees[0],
@@ -134,7 +133,7 @@ export const projects = [
 
             },
             {
-                taskName: 'UX Login + Registration',
+                taskName: 'UX Login',
                 Estimate: '2d',
                 SpentTime: '3h 15m',
                 Assignee: './assets/profile-pics/project-pic/project-pic-1.png',
@@ -145,7 +144,7 @@ export const projects = [
 
             },
             {
-                taskName: 'UI Login + Registration',
+                taskName: 'UI Login ',
                 Estimate: '1d 2h',
                 SpentTime: '4h',
                 Assignee: './assets/profile-pics/project-pic/project-pic-1.png',
@@ -156,7 +155,7 @@ export const projects = [
 
             },
             {
-                taskName: 'UI for other screens',
+                taskName: 'UI for T',
                 Estimate: '4d',
                 SpentTime: '2d 2h 20m',
                 Assignee: './assets/profile-pics/project-pic/project-pic-1.png',
@@ -168,10 +167,9 @@ export const projects = [
             }
         ]
     },
-     {
+    {
         name: 'Medical App (iOS native)',
         pn: 'PN0001265',
-        photo: '',
         created: 'Jan 1, 2023',
         description: 'App for maintaining your medical record, making appointments with a doctor, storing prescriptions',
         reporter: employees[0],

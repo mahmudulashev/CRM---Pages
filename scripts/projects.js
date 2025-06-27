@@ -50,35 +50,33 @@ function qoshish(task) {
 
 
     let peopleDiv = `<div class="people-div">
-            <div class="orab-turuvchi">
                 <div class="name">
                     <p>Task Name</p>
                     <h4>${task.taskName}</h4>
                 </div>
-                <div class="data">
+                <div class="name">
                     <p>Estimate</p>
                     <h4>${task.Estimate}</h4>
                 </div>
-                <div class="time">
+                <div class="name">
                     <p>Spent Time</p>
                     <h4>${task.SpentTime}</h4>
                 </div>
-                <div class="text-img">
+                <div class="name">
                     <p>Assignee</p>
-                    <img style="border-radius:50px; margin: 5px;" width="30px"
+                    <img style="border-radius:50px;" width="30px"
                         src="${task.Assignee}" alt="bola rasmi">
                 </div>
-                <div class="level">
+                <div class="name">
                     <p>Priority</p>
                     <h4 class="${priorityClass}">${task.Priority}</h4>
                 </div>
-                <div class="tugma-div">
+                <div class="tugma-div name">
                     <button class="${progressClass}">${task.progress}</button>
                 </div>
-                <div class="aynala">
+                <div class="aynala name">
                     <img src="${task.progressBar}" alt="">
                 </div>
-            </div>
         </div>`;
 
     return peopleDiv;

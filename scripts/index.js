@@ -1,8 +1,25 @@
-import { projects } from './data.js';
+import { projects, employees  } from './data.js';
 let projectCards = document.querySelector('.projects-cards');
 
 
 //DASHBOARD BO'LIMIDAGI PROJECTLARNI QO'SHISH
+
+
+let heroCards = document.querySelector('.hero-cards');
+
+function heroCardQo(hero) {
+    let heroCard = `<div class="hero-card">
+                        <img id="hero-card-img" src="${hero.img}" alt="">
+                        <h3>${hero.name}</h3>
+                        <p>${hero.position}</p>
+                        <p class="hero-card-level">${hero.level}</p>
+                    </div>`
+    return heroCard;
+}
+
+for (let i = 0; i < 8; i++) {
+    heroCards.innerHTML += heroCardQo(employees[i]);
+}
 
 function projectQo(project) {
     let project1 = ` <div class="projects-card">
@@ -56,5 +73,4 @@ function projectQo(project) {
 for (let i = 0; i < 4; i++) {
     projectCards.innerHTML += projectQo(projects[i]);
 }
-
 
