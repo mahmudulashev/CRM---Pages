@@ -10,3 +10,4 @@ btn1.addEventListener("click", function() {
     btn1.classList.add("active");
     btn.classList.remove("active");
 });
+

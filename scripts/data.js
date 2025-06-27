@@ -95,7 +95,7 @@ export const projects = [
         created: 'Jan 1, 2023',
         description: 'App for maintaining your medical record, making appointments with a doctor, storing prescriptions',
         reporter: employees[0],
-
+        assignees: [employees[0], employees[1]],
         priority: 'Medium',
         deadLine: 'Dec 31, 2023',
         tasks: [
@@ -175,7 +175,7 @@ export const projects = [
         created: 'Jan 1, 2023',
         description: 'App for maintaining your medical record, making appointments with a doctor, storing prescriptions',
         reporter: employees[0],
-
+        assignees: [employees[0], employees[1]],
         priority: 'Medium',
         deadLine: 'Dec 31, 2023',
         tasks: [
