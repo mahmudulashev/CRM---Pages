@@ -168,20 +168,6 @@
 
 
 
-.level p {
-    align-items: center;
-    text-align: center;
-    display: flex;
-}
-
-.tugma-div {
-    width: 150px;
-}
-
-.aylana {
-    width: 100px;
-}
-
 .save {
     background-color: var(--blue);
     padding: 10px;
@@ -467,6 +453,7 @@
     font-weight: 650;
     font-family: var(--main-font);
 }
+
 
 
 /* LEVEL */
