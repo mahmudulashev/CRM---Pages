@@ -165,3 +165,20 @@
     color: rgba(145, 146, 158, 1);
 
 }
+
+.hero-card-level {
+    border: 1px solid gray;
+    padding: 0.3rem;
+    border-radius: 7px;
+    color: gray;
+    width: fit-content;
+}
+
+.more {
+  background-color: var(--background-color);
+  padding: 0.8rem 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
