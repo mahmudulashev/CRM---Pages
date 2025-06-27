@@ -212,12 +212,12 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(63, 140, 255, 0.3); /* yarim shaffof ko‘k */
+    background: rgba(63, 140, 255, 0.3); 
     z-index: 999;
     display: none;
 }
 
-.popup.activ .overlay {
-    display: flex;
+.overlay.active {
+    display: block;
 }
 
