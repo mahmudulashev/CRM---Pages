@@ -282,3 +282,25 @@ form input {
     box-shadow: var(--box-shadow);
 
 }
+
+#message {
+    display: block; 
+    position: fixed;
+    width: fit-content;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -40px); 
+    opacity: 0;
+    background-color: rgba(10, 201, 71, 0.9);
+    color: var(--white);
+    transition: transform 0.5s ease-in-out, opacity 0.5s;
+    padding: 10px 20px;
+    border-radius: var(--secondary-border-radius);
+    z-index: 1001;
+}
+
+
+#message.active {
+    transform: translate(-50%, 0);
+    opacity: 1;
+}
