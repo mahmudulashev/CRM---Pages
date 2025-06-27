@@ -288,6 +288,7 @@
     border-radius: 100px;
     border: none;
     color: #6D5DD3;
+    box-shadow: var(--box-shadow);
 }
 
 .pink-btn-div1 {
@@ -296,6 +297,7 @@
     padding: 10px;
     border-radius: 100px;
     border: none;
+    box-shadow: var(--box-shadow);
     
 }
 
