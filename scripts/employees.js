@@ -66,3 +66,25 @@ addEmployeeBtn.addEventListener("click", () => {
     popup.classList.add('activ');
     overlay.classList.add('active');
 });
+
+let employeeNumber = document.querySelector('.main-h2');
+employeeNumber.textContent = `Employees (${employees.length})`;
+
+const approveForm = document.getElementById('approve-form');
+const message = document.getElementById('message');
+
+approveForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    message.classList.add('active');
+    popup.classList.remove('activ');
+    overlay.classList.remove('active');
+    approveForm.reset();
+
+    setTimeout(() => {
+        message.classList.remove('active');
+    }, 3000);
+});
+
+
+
