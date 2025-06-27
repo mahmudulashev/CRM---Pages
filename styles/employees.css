@@ -99,6 +99,7 @@
     letter-spacing: 0px;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 /* EMPLOYEE */
@@ -284,19 +285,35 @@ form input {
 }
 
 #message {
-    display: block; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 19px;
     position: fixed;
     width: fit-content;
-    top: 20px;
+    top: 100px;
     left: 50%;
     transform: translate(-50%, -40px); 
     opacity: 0;
-    background-color: rgba(10, 201, 71, 0.9);
+    background-color: var(--blue);
     color: var(--white);
     transition: transform 0.5s ease-in-out, opacity 0.5s;
     padding: 10px 20px;
     border-radius: var(--secondary-border-radius);
     z-index: 1001;
+    gap: 10px;
+}
+
+#message svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+}
+
+#check-icon {
+    margin-left: 100px;
 }
 
 
