@@ -264,19 +264,39 @@
 .input-joylashuv {
     display: flex;
 }
-.avatar-grid{
+
+.avatar-grid {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: 20px 50px 10px 50px;
 }
+
 .pink-div {
     margin: 20px 10px 10px 50px;
 }
-.input-form label{
+
+.input-form label {
     padding: 15px 0px 5px 10px;
 
+}
+
+.pink-btn-div {
+    background-color: #6D5DD319;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    color: #6D5DD3;
+}
+
+.pink-btn-div1 {
+    background-color: #15C0E61A;
+    color: #15C0E6;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    
 }
 
 
