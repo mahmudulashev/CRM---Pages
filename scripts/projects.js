@@ -6,7 +6,7 @@ let container = document.querySelector('.container');
 // PROJECT BO"LIMIDAGI PROJECTLARNI QO'SHISH
 
 function projectQoshish(project) {
-    let projectDiv = `<div class="current-div1">
+    let projectDiv = `<div class="current-div1 active">
                             <p>${project.pn}</p>
                             <h4>${project.name}</h4>
                             <a href="#">View details
