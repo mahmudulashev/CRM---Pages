@@ -221,13 +221,43 @@
                         </svg>
                     </span>
                 </div>
-                <img src="./assets/other-photos/illustration.png" alt="">
+
                 <form id="approve-form" action="">
-                    <label for="">Member’s Email</label>
-                    <input id="name" type="email" placeholder="memberemail@gmail.com" required>
+                    <label for="name">Event Name</label>
+                    <input id="name" type="text" placeholder="Katy's Birthday" required>
+
+                    <label for="category">Event Category</label>
+                    <select name="category" id="category">
+                        <option value="birthday">Birthday</option>
+                        <option value="meeting">Meeting</option>
+                        <option value="holiday">Holiday</option>
+                    </select>
+
+                    <label for="category">Event Category</label>
+                    <select name="category" id="category">
+                        <option value="birthday">Birthday</option>
+                        <option value="meeting">Meeting</option>
+                        <option value="holiday">Holiday</option>
+                    </select>
+
+                    <span>
+                        <span>
+                            <label for="date">Date</label>
+                            <input id="date" type="date" required>
+                        </span>
+
+                        <span>
+                            <label for="time">Time</label>
+                            <input id="time" type="time" required>
+                        </span>
+                    </span>
+
+                    <label for="description">Event Description</label>
+                    <textarea id="description" rows="4" placeholder="Describe the event" required></textarea>
                     <h3><a href="">+ Add another Member</a></h3>
                     <button>Approve</button>
                 </form>
+
             </section>
 
         </section>
