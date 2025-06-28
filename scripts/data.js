@@ -246,4 +246,65 @@ export const projects = [
             }
         ]
     }
+];
+
+export const events = [
+    {
+        icon: './assets/icons/building.svg',
+        name: 'Presentation of the new department',
+        date: 'Today | 6:00 PM',
+        hour: '4h',
+        borderColor: 'var(--blue)',
+    },
+    {
+        icon: './assets/icons/birthday.svg',
+        name: 'Anna’s Birthday',
+        date: 'Today | 5:00 PM',
+        hour: '2h',
+        borderColor: 'var(--pink)',
+    },
+    {
+        icon: './assets/icons/meeting.svg',
+        name: 'Meeting with Development Team',
+        date: 'Tomorrow | 5:00 PM',
+        hour: '4h',
+        borderColor: 'var(--yellow)',
+    },
+     {
+        icon: './assets/icons/birthday.svg',
+        name: 'Ray’s Birthday',
+        date: 'Tomorrow | 2:00 PM',
+        hour: '1h 30m',
+        borderColor: 'var(--pink)',
+    },
+    {
+        icon: './assets/icons/building.svg',
+        name: 'Meeting with CEO',
+        date: 'Sep 14 | 5:00 PM',
+        hour: '1h',
+        borderColor: 'var(--blue)',
+    },
+     {
+        icon: './assets/icons/tv.svg',
+        name: 'Movie night (Tenet)',
+        date: 'Sep 15 | 5:00 PM',
+        hour: '3h',
+        borderColor: 'var(--purple)',
+    },
+    {
+        icon: './assets/icons/birthday.svg',
+        name: 'Lucas’s Birthday',
+        date: 'Sep 29 | 5:30 PM',
+        hour: '2h',
+        borderColor: 'var(--pink)',
+    },
+
+     {
+        icon: './assets/icons/building.svg',
+        name: 'Meeting with CTO',
+        date: 'Sep 30 | 12:00 PM',
+        hour: '1h',
+        borderColor: 'var(--blue)',
+    },
+    
 ]
