@@ -93,22 +93,22 @@ body {
     font-weight: 600;
     color: #7f8c8d;
     margin-bottom: 10px;
+
 }
 
 .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
+
 }
 
 .day {
-    background: #f9f9f9;
-    min-height: 120px;
-    border-radius: 12px;
+    min-height: 140px;
     padding: 10px;
     position: relative;
     cursor: pointer;
     transition: 0.2s;
+    border: 0.1px solid #386e8534;
 }
 
 .day:hover {
