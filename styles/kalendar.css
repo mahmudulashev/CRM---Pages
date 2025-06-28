@@ -20,6 +20,19 @@
     --main-font: "Nunito Sans", sans-serif;
 }
 
+.line {
+    position: absolute;
+    top: 290.5px;
+    left: 198px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--blue);
+    border-radius: var(--secondary-border-radius);
+    margin: 1rem 0;
+    rotate: -90deg;
+    transform-origin: left;
+}
+
 .top-hero h2 {
     font-size: var(--h2-size);
     margin: 15px;
@@ -43,18 +56,6 @@
     margin: 0px 5px;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #eef3f9;
-    padding: 20px;
-}
-
 .calendar-container {
     max-width: 1500px;
     margin: auto;
@@ -62,6 +63,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     padding: 20px;
+    margin-bottom: 3rem;
 }
 
 .calendar-header {

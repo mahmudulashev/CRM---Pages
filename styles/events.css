@@ -243,17 +243,29 @@ form textarea {
     resize: none;
 }
 
-select option {
+select option{
     font-family: var(--main-font);
     font-size: 16px;
     padding: 0.7rem;
-    color: var(--gray);
+    color: var(--text-color);
 }
 
-option p {
+select {
+    background-color: var(--white);
+    color: var(--gray);
+    border: 1px solid rgba(128, 128, 128, 0.553);
+    border-radius: var(--secondary-border-radius);
+    padding: 0.7rem;
     font-family: var(--main-font);
     font-size: 16px;
-    color: var(--gray);
+}
+
+input[type="date"], input[type="time"]::placeholder {
+    color: gray;
+}
+
+select option.placeholder {
+  color: gray;
 }
 
 .popup h3 {
