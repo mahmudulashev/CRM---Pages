@@ -36,3 +36,33 @@ function renderEvents(event) {
 for (let i = 0; i < events.length; i++) {
     eventsContainer.innerHTML += renderEvents(events[i]);
 }
+
+const btn1 = document.getElementById("close-popup");
+const overlay = document.querySelector('.overlay');
+const popup = document.querySelector('.popup');
+const addEmployeeBtn = document.querySelector(".add-employee");
+
+function closePopup() {
+    popup.classList.remove('activ');
+    overlay.classList.remove('active');
+}
+btn1.addEventListener("click", closePopup);
+addEmployeeBtn.addEventListener("click", () => {
+    popup.classList.add('activ');
+    overlay.classList.add('active');
+});
+
+const approveForm = document.getElementById('approve-form');
+const message = document.getElementById('message');
+
+approveForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    message.classList.add('active');
+    popup.classList.remove('activ');
+    overlay.classList.remove('active');
+    approveForm.reset();
+
+    setTimeout(() => {
+        message.classList.remove('active');
+    }, 3000);
+});

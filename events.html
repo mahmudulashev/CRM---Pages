@@ -46,7 +46,7 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M6 3C4.34315 3 3 4.34315 3 6V8C3 9.65685 4.34315 11 6 11H8C9.65685 11 11 9.65685 11 8V6C11 4.34315 9.65685 3 8 3H6ZM16 3C14.3431 3 13 4.34315 13 6V8C13 9.65685 14.3431 11 16 11H18C19.6569 11 21 9.65685 21 8V6C21 4.34315 19.6569 3 18 3H16ZM3 16C3 14.3431 4.34315 13 6 13H8C9.65685 13 11 14.3431 11 16V18C11 19.6569 9.65685 21 8 21H6C4.34315 21 3 19.6569 3 18V16ZM16 13C14.3431 13 13 14.3431 13 16V18C13 19.6569 14.3431 21 16 21H18C19.6569 21 21 19.6569 21 18V16C21 14.3431 19.6569 13 18 13H16Z" />
                             </svg> Dashboard</a>
-                             <div class="line"></div>
+                        <div class="line"></div>
 
                     </li>
 
@@ -195,10 +195,43 @@
 
         <!-- EVENTS -->
         <section class="events">
-             
 
-                
+
+
         </section>
+        <section>
+            <div id="message">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
+                </svg>
+                Employee successfully added
+            </div>
+
+            <!-- POPUP -->
+            <div class="overlay"></div>
+            <section class="popup">
+                <div class="popup-top">
+                    <h2>Add Employee</h2>
+                    <span id="close-popup"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.1064 18.6958C20.5835 18.2443 20.5826 17.4845 20.1046 17.034L14.232 11.5L20.1046 5.96597C20.5826 5.51549 20.5835 4.75571 20.1064 4.30419L20.041 4.24227C19.601 3.82583 18.9125 3.82508 18.4716 4.24056L12.5 9.86786L6.52845 4.24056C6.08755 3.82508 5.39905 3.82583 4.95906 4.24227L4.89363 4.30419C4.41658 4.75571 4.4174 5.51549 4.89544 5.96597L10.768 11.5L4.89544 17.034C4.4174 17.4845 4.41658 18.2443 4.89364 18.6958L4.95906 18.7577C5.39905 19.1742 6.08756 19.1749 6.52845 18.7594L12.5 13.1321L18.4716 18.7594C18.9125 19.1749 19.601 19.1742 20.041 18.7577L20.1064 18.6958Z"
+                                fill="#0A1629" />
+                        </svg>
+                    </span>
+                </div>
+                <img src="./assets/other-photos/illustration.png" alt="">
+                <form id="approve-form" action="">
+                    <label for="">Member’s Email</label>
+                    <input id="name" type="email" placeholder="memberemail@gmail.com" required>
+                    <h3><a href="">+ Add another Member</a></h3>
+                    <button>Approve</button>
+                </form>
+            </section>
+
+        </section>
+
 
     </main>
 </body>
