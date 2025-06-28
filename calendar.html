@@ -33,6 +33,7 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/global-style.css">
+    <link rel="stylesheet" href="./styles/kalendar.css">
 </head>
 
 <body>
@@ -182,19 +183,46 @@
         <!-- TOP-HERO -->
         <section class="top-hero">
             <h2>Calendar</h2>
-            <button><span>+</span>Add Event</button>
+            <button class="btn-calendar"><span>+</span>Add Event</button>
 
         </section>
-        <section>
-            <div id="calendar"></div>
 
-            <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
-            <script src=".js"></script>
-        </section>
+
+        <body>
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <button onclick="changeMonth(-1)">&#8592;</button>
+                    <h2 id="monthYear">Month Year</h2>
+                    <button onclick="changeMonth(1)">&#8594;</button>
+                </div>
+
+                <div class="calendar-days">
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                    <div>Sun</div>
+                </div>
+
+                <div class="calendar-grid" id="calendarGrid"></div>
+            </div>
+
+            <!-- Modal for adding notes -->
+            <div id="noteModal" class="modal">
+                <div class="modal-content">
+                    <h4 id="noteDate">Add Note</h4>
+                    <textarea id="noteInput" placeholder="Type your note..."></textarea>
+                    <button onclick="saveNote()">Save Note</button>
+                </div>
+            </div>
+
+            <script src="./scripts/kalendar.js"></script>
+
+
 
     </main>
-    <script src="./scripts/kalendar.js
-    "></script>
 
 </body>
 
