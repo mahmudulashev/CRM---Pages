@@ -1,0 +1,140 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(125, 133, 146, 1);
+    --blue: rgba(63, 140, 255, 1);
+    --yellow: rgba(255, 189, 33, 1);
+    --pink: rgba(222, 146, 235, 1);
+    --green: rgba(10, 201, 71, 1);
+    --text-color: rgba(10, 22, 41, 1);
+    --background-color: rgba(244, 249, 253, 1);
+    --background-color-2: #ecf3ff;
+    --box-shadow: rgba(0, 0, 0, 0.051) 0px 4px 12px;
+
+    --h3-size: 1.2rem;
+    --h2-size: 2.3rem;
+    --p-size: 1rem;
+    --svg-size: 1.5rem;
+    --main-border-radius: 24px;
+    --secondary-border-radius: 14px;
+
+    --main-font: "Nunito Sans", sans-serif;
+}
+
+
+
+.top-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    gap: 2rem;
+}
+
+.top-hero a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--blue);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+.top-hero span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.add-employee {
+    width: 155px;
+    height: 42px;
+    border-radius: var(--secondary-border-radius);
+    background-color: var(--blue);
+    color: var(--white);
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* EVENTS */
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    gap: 2rem;
+}
+
+.hero-right-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 48%;
+    background-color: var(--white);
+    padding: 1.7rem 2rem ;
+    border-radius: var(--main-border-radius);
+}
+
+.hero-right-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-left: 4px solid rgba(222, 146, 235, 1);
+    width: 100%;
+    padding-left: 1.5rem;
+    
+}
+
+.hero-right-card:nth-child(1) {
+    border-left-color: var(--blue);
+}
+
+.hero-right-card span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+    height: 3rem;
+
+
+}
+
+.hero-right-card span h4 {
+    width: 80%;
+    font-weight: 650;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.hero-right-card span h5 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--background-color);
+    padding: 0.5rem;
+    border-radius: 7px;
+}
