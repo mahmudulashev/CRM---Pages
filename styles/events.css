@@ -167,14 +167,14 @@
 
 /* POPUP */
 .popup {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     right: 50%;
     bottom: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    height: 800px;
+    height: fit-content;
     background-color: var(--white);
     justify-content: start;
     align-items: center;
@@ -184,6 +184,9 @@
     padding: 2rem 3rem;
     box-shadow: var(--box-shadow);
     border-radius: var(--main-border-radius);
+    margin-top: 3rem;
+    
+
 }
 
 .popup.activ {
@@ -218,19 +221,24 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 0.4rem;
     margin-top: 2rem;
 }
 
-form input, form select, form textarea {
+form > input, .salom > span > span > input, form select, form textarea {
     width: 100%;
     height: 50px;
     border-radius: var(--secondary-border-radius);
-    border: 1px solid rgba(128, 128, 128, 0.553);
+    border: 1px solid rgba(216, 224, 240, 1);
+    box-shadow: var(--box-shadow);
     padding: 0.7rem;
     font-size: 16px;
     margin-bottom: 1rem;
     font-family: var(--main-font);
+
+}
+
+form > input,   select, textarea {
+    margin-top: 0.8rem;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -241,6 +249,11 @@ input:focus, select:focus, textarea:focus {
 form textarea {
     height: 100px;
     resize: none;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 100;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 select option{
@@ -260,8 +273,9 @@ select {
     font-size: 16px;
 }
 
-input[type="date"], input[type="time"]::placeholder {
+input[type="date"], input[type="time"] {
     color: gray;
+    margin-top: 0.1rem;
 }
 
 select option.placeholder {
@@ -339,12 +353,161 @@ select option.placeholder {
     opacity: 1;
 }
 
-form > span {
+form  span {
     display: flex;
     gap: 0.5rem;
 }
 
-form > span > span  {
+form  span > span  {
     width: 100%;
 
+}
+
+.repeat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color-2);
+    padding: 1rem;
+    border-radius: var(--secondary-border-radius);
+    position: relative;
+    z-index: 100;
+    margin-top: -0.4rem;
+    padding-top: 1rem;
+}
+
+.salom2 {
+    width: 100%;
+    height: 20px;
+    background-color: var(--white);
+    position: relative;
+    z-index: 98;
+    margin-top: -0.1rem;
+    top: -0.3rem;
+}
+
+.button {
+    width: 57px;
+    height: 31px;
+    background-color: rgba(206, 213, 224, 1);
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+}
+form div > span span {
+    display: flex;
+    flex-direction: column;
+}
+
+.button div {
+    width: 23px;
+    height: 23px;
+    background-color: var(--white);
+    border-radius: 50%;
+    transform: translateX(-0px);
+    transition: all 0.2s ease-in-out;
+}
+
+.repeat h3 {
+    align-self: center;
+}
+
+.button.ishla {
+    background-color: var(--blue);
+}
+
+.button.ishla .button-div {
+    transform: translateX(24px);
+    transition: all 0.3s ease-in-out;
+}
+
+.ochil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    margin-top: -12rem;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.hidden {
+   opacity: 1;
+
+    transition: all 1s ease-in-out;
+    margin-top: 1.5rem;
+
+}
+
+.ochil-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.7rem;
+
+}
+
+.ochil-2 div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.ochil-2 > div div  {
+        border: 1px solid  rgba(216, 224, 240, 1);
+        padding: 0.7rem;
+        width: 28%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: var(--secondary-border-radius);
+        color: var(--gray);
+}
+
+.kunlar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+
+.kunlar div {
+        border: 1px solid  rgba(216, 224, 240, 1);
+        padding: 0.7rem;
+        width: 154px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: var(--secondary-border-radius);
+        color: var(--gray);
+}
+
+.salom {
+    position: relative;
+    z-index: 99;
+}
+
+.ochil div {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.ochil input {
+    height: 20px;
+    width: 20px;
+    accent-color: var(--blue);
+}
+
+input::checkmark {
+    background-color: var(--blue);
 }

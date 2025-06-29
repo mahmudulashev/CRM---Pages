@@ -201,18 +201,14 @@
         </section>
         <section>
             <div id="message">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path
-                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
-                </svg>
-                Employee successfully added
+                Event successfully added
             </div>
 
             <!-- POPUP -->
             <div class="overlay"></div>
             <section class="popup">
                 <div class="popup-top">
-                    <h2>Add Employee</h2>
+                    <h2>Add Event</h2>
                     <span id="close-popup"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -234,14 +230,14 @@
                         <option value="holiday">Holiday</option>
                     </select>
 
-                    <label for="category">Event Category</label>
+                    <label for="category">Priority</label>
                     <select name="category" id="category">
-                        <option value="" disabled selected>Select Category</option>
-                        <option value="birthday">Birthday</option>
-                        <option value="meeting">Meeting</option>
-                        <option value="holiday">Holiday</option>
+                        <option value="" disabled selected>Select Priority</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
                     </select>
 
+                <div class="salom">
                     <span>
                         <span>
                             <label for="date">Date</label>
@@ -255,9 +251,49 @@
                     </span>
 
                     <label for="description">Event Description</label>
-                    <textarea id="description" rows="4" placeholder="Describe the event" required></textarea>
-                    <h3><a href="">+ Add another Member</a></h3>
-                    <button>Approve</button>
+                    <textarea id="description" rows="4" placeholder="Add some description of the event" required></textarea>
+                    </span>
+                </div>
+                <div class="salom2"></div>
+                    <div class="repeat">
+                        <h3>Repeat Event</h3>
+                        <div class="button">
+                            <div class="button-div"></div>
+                        </div>
+                    </div>
+                    <div class="ochil">
+                        <div class="ochil-1">
+                            <h3>Complete this task</h3>
+                            <div class="kunlar">
+                                <div>Daily</div>
+                                <div>Weekly</div>
+                                <div>Monthly</div>
+                            </div>
+
+                            
+                        </div>
+                        <div class="ochil-1 ochil-2">
+                            <h3>On these days</h3>
+                            <div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Wed</div>
+                                <div>Wed</div>
+                                <div>Wed</div>
+                                <div>Wed</div>
+                            </div>
+
+                            
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="" id="checkbox">
+                            <label for="checkbox">Repeat every day</label>
+                        </div>
+
+                    </div>
+                    <button>Save Event</button>
                 </form>
 
             </section>

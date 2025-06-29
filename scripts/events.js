@@ -66,3 +66,15 @@ approveForm.addEventListener('submit', function (e) {
         message.classList.remove('active');
     }, 3000);
 });
+
+
+let button = document.querySelector('.button');
+let ochil = document.querySelector('.ochil')
+button.addEventListener('click', () => {
+    if (button.classList.contains('ishla')) button.classList.remove('ishla');
+    else  button.classList.add('ishla');
+    if (ochil.classList.contains('hidden')) ochil.classList.remove('hidden');
+    else  ochil.classList.add('hidden');
+})
+
+
