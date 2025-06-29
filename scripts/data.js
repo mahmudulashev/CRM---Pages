@@ -7,7 +7,10 @@ export const employees = [
         birthday: 'Apr 12, 1995',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 40,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-8.png',
@@ -17,7 +20,11 @@ export const employees = [
         birthday: 'Jan 1, 1990',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 50,
+        
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-4.png',
@@ -27,7 +34,10 @@ export const employees = [
         birthday: 'Apr 12, 1995',
         fullAge: '30',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 50,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-2.png',
@@ -37,7 +47,10 @@ export const employees = [
         birthday: 'Jan 1, 1990',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 50,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-3.png',
@@ -47,7 +60,10 @@ export const employees = [
         birthday: 'Jan 1, 1990',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 50,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-1.png',
@@ -57,7 +73,10 @@ export const employees = [
         birthday: 'Jan 1, 1990',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 50,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-5.png',
@@ -67,7 +86,10 @@ export const employees = [
         birthday: 'Jan 1, 1990',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 15,
+        sick: 3,
+        remotely: 50,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-7.png',
@@ -77,7 +99,10 @@ export const employees = [
         birthday: 'Jan 1, 1990',
         fullAge: '33',
         position: 'Software Engineer',
-        level: 'Middle'
+        level: 'Middle',
+        vacations: 14,
+        sick: 2,
+        remotely: 50,
     },
 
 ]

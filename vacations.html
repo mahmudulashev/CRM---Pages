@@ -26,6 +26,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/global-style.css">
     <link rel="stylesheet" href="./styles/vacations.css">
+    <script defer type="module" src="./scripts/vacations.js"></script>
 </head>
 
 <body>
@@ -195,35 +196,78 @@
         <section class="employees-table" id="employees-table">
 
 
-            <div class="employees-name">
-
-                <span class="employee-name">
-                    <img src="./assets/profile-pics/hero-pics/vacation-pic-1.png" alt="">
-                    <span>
-                        <h4>Ryan Thompson</h4>
-                        <p>ryanthom@gmail.com</p>
-                    </span>
-                </span>
-
-                <span>
-                    <p>Vacations</p>
-                    <h5>15</h5>
-                </span>
-
-                <span>
-                    <p>Sick Leave</p>
-                    <h5>3</h5>
-                </span>
-
-                <span>
-                    <p>Work remotely</p>
-                    <h5>50</h5>
-                </span>
-
-            </div>
+            
         </section>
 
+         <section>
+            <div id="message">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
+                </svg>
+                Employee successfully added
+            </div>
+
+            <!-- POPUP -->
+            <div class="overlay"></div>
+            <section class="popup">
+                <div class="popup-top">
+                    <h2>Add Employee</h2>
+                    <span id="close-popup"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.1064 18.6958C20.5835 18.2443 20.5826 17.4845 20.1046 17.034L14.232 11.5L20.1046 5.96597C20.5826 5.51549 20.5835 4.75571 20.1064 4.30419L20.041 4.24227C19.601 3.82583 18.9125 3.82508 18.4716 4.24056L12.5 9.86786L6.52845 4.24056C6.08755 3.82508 5.39905 3.82583 4.95906 4.24227L4.89363 4.30419C4.41658 4.75571 4.4174 5.51549 4.89544 5.96597L10.768 11.5L4.89544 17.034C4.4174 17.4845 4.41658 18.2443 4.89364 18.6958L4.95906 18.7577C5.39905 19.1742 6.08756 19.1749 6.52845 18.7594L12.5 13.1321L18.4716 18.7594C18.9125 19.1749 19.601 19.1742 20.041 18.7577L20.1064 18.6958Z"
+                                fill="#0A1629" />
+                        </svg>
+                    </span>
+                </div>
+
+                <form id="approve-form" action="">
+                    <label for="name">Event Name</label>
+                    <input id="name" type="text" placeholder="Katy's Birthday" required>
+
+                    <label for="category">Event Category</label>
+                    <select name="category" id="category">
+                        <option value="" disabled selected>Select Category</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="meeting">Meeting</option>
+                        <option value="holiday">Holiday</option>
+                    </select>
+
+                    <label for="category">Event Category</label>
+                    <select name="category" id="category">
+                        <option value="" disabled selected>Select Category</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="meeting">Meeting</option>
+                        <option value="holiday">Holiday</option>
+                    </select>
+
+                    <span>
+                        <span>
+                            <label for="date">Date</label>
+                            <input id="date" type="date" required>
+                        </span>
+
+                        <span>
+                            <label for="time">Time</label>
+                            <input id="time" type="time" required>
+                        </span>
+                    </span>
+
+                    <label for="description">Event Description</label>
+                    <textarea id="description" rows="4" placeholder="Describe the event" required></textarea>
+                    <h3><a href="">+ Add another Member</a></h3>
+                    <button>Approve</button>
+                </form>
+
+            </section>
+
+        </section>
+
+
+
     </main>
+
 </body>
 
 </html>
