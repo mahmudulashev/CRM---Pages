@@ -154,6 +154,10 @@ label {
     font-size: var(--p-size);
     border-radius: 15px;
     color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .newAcc {
@@ -161,6 +165,15 @@ label {
     color: var(--blue);
     text-decoration: none;
 }
+
+#emailjon {
+    width: 403px;
+    height: 48px;
+    border: 1px solid #7d869439;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -171,7 +184,7 @@ label {
 }
 
 .verifying-side {
-    width: 346px;
+    width: 266px;
     height: 100vh;
     background-color: var(--blue);
     display: flex;
@@ -196,9 +209,9 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
     background-color: var(--white);
     border-radius: 20px;
+    position: relative;
 }
 
 .step {
@@ -207,7 +220,7 @@ label {
     padding-top: 50px;
 }
 
-.information {
+#smsWrapper{
     width: 403px;
     height: 88px;
     background-color: #F4F9FD;
@@ -225,6 +238,7 @@ label {
 
 .sms-wrapper {
     display: flex;
+    gap: 15px;
 }
 
 select {
@@ -238,7 +252,7 @@ select option {
     color: var(--gray);
 }
 
-.num {
+#num {
     width: 313px;
     height: 49px;
     border-radius: 10px;
@@ -248,4 +262,228 @@ select option {
 .raqam-wrapper {
     display: flex;
     gap: 20px;
+}
+
+.sms {
+    width: 68px;
+    height: 59px;
+    border-radius: 10px;
+    border: 1px solid #6d748139; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sms ::placeholder {
+    font-size: 30px;
+    color: #6d748139;
+    padding-right: 100px;
+    margin-right: 30px;
+    align-self: center;
+    justify-self: center;
+}
+
+.next {
+    position: absolute;
+    width: 145px;
+    height: 48px;
+    background-color: var(--blue);
+    font-size: var(--p-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: transparent;
+    gap: 10px;
+    color: var(--white);
+    top: 750px;
+    left: 940px;
+}
+
+.divider {
+    position: absolute;
+    top: 700px;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+.next2 {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* TELL ABOUT YOURSELF */
+
+#service {
+    width: 403px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #6d748139; 
+}
+
+#about {
+    width: 403px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid #6d748139; 
+}
+
+.checkboxes {
+    display: flex;
+    gap: 10px;
+}
+
+.headinging {
+    font-weight: 500;
+    font-size: 16px;
+    color: gray;
+}
+
+.divider2 {
+    width: 1200px;
+    margin-top: 350px;
+}
+
+.previous {
+    position: absolute;
+    width: 145px;
+    height: 48px;
+    background-color: white;
+    font-size: var(--p-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: transparent;
+    gap: 10px;
+    color: black;
+    top: 750px;
+    left: 80px;
+}
+
+.arrow2 {
+    transform: rotate(180deg);
+}
+
+.next3 {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+/* TELL ABOUT YOUR COMPANY */
+
+.checkboxes2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-size {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 600px;
+}
+
+.option {
+  padding: 15px 25px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.option.selected {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.divider3 {
+    width: 1200px;
+    margin-top: 227px;
+}
+
+.member {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.form2 {
+    gap: 5px;
+}
+
+.divider4 {
+    width: 1200px;
+    margin-top: 439px;
+}
+
+#emaill {
+    width: 403px;
+    height: 48px;
+    border: 1px solid #7d869439;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#emailing {
+    width: 403px;
+    height: 48px;
+    border: 1px solid #7d869439;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#emailPassword {
+    width: 403px;
+    height: 48px;
+    border: 1px solid #7d869439;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Finishing */
+
+.finishMain {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+    gap: 20px;
+}
+
+.artBoy {
+    margin-bottom: 40px;
+}
+
+.nextFinish {
+    width: 145px;
+    height: 48px;
+    background-color: var(--blue);
+    font-size: var(--p-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: transparent;
+    gap: 10px;
+    color: var(--white);
+}
+
+select  {
+  text-indent: 20px;
+  color: gray;
+  font-size: 16px;
+}
+
+#codeSelect {
+    width: 80px;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell about your company</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <main class="main3">
+        <div class="verifying-side">
+            <img src="assets/logos/Main-logo.png" alt="logo" class="logoo">
+            <img src="assets/accountImgs/Stepper3.png" alt="stepper" class="get">
+        </div>
+        <div class="main-side">
+            <p class="step">Step 3/4</p>
+            <h2 class="headingjon">Tell about your company</h2>
+
+            <form action="#">
+                <label for="raqam">Your Company’s Name</label>
+                    <input type="text" name="company" id="emaill" placeholder="Company's name" required >
+
+                <label for="raqam">Business Direction</label>
+                <div class="service-wrapper">
+                <select name="raqam" id="about" required>
+                <option value="Business owner">IT and Programming</option>
+                <option value="Worker">CEO</option>
+                <option value="Student">Data science</option>
+                </select>
+                </div>
+
+                <div class="team-size">
+                    <div class="option" onclick="selectOption(this)">Only me</div>
+                    <div class="option" onclick="selectOption(this)">2 - 5</div>
+                    <div class="option" onclick="selectOption(this)">6 - 10</div>
+                    <div class="option" onclick="selectOption(this)">11 - 20</div>
+                    <div class="option" onclick="selectOption(this)">21 - 40</div>
+                    <div class="option" onclick="selectOption(this)">41 - 50</div>
+                    <div class="option" onclick="selectOption(this)">51 - 100</div>
+                    <div class="option" onclick="selectOption(this)">101 - 500</div>
+                </div>
+
+
+
+
+
+
+            </form>
+
+            <img class="divider" src="./assets/accountImgs/divider.png" alt="divider">
+            <button class="previous"><img class="arrow2" src="./assets/accountImgs/previous.png" alt="hint"><a class="next3" href="yourself.html">Previous</a></button>
+            <button class="next"><a class="next2" href="invite.html">Next Step</a> <img class="arrow" src="./assets/accountImgs/white.png" alt="arrow"></button>
+        </div>
+    </main>
+
+
+    <script>
+        function selectOption(element) {
+            const options = document.querySelectorAll('.option');
+            options.forEach(option => option.classList.remove('selected'));
+            element.classList.add('selected');
+  }
+</script>
+
+</body>
+</html>

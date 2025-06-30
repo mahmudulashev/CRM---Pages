@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in</title>
+    <title>Valid your phone</title>
     <link rel="stylesheet" href="signin.css">
 </head>
 <body>
+    <!-- Sign up Asosiy html -->
     <main class="main3">
         <div class="verifying-side">
             <img src="../assets/logos/Main-logo.png" alt="logo" class="logoo">
@@ -19,28 +20,40 @@
             <form action="#">
                 <label for="raqam">Mobile Number</label>
                 <div class="raqam-wrapper">
-                <select name="raqam" id="num">
+                <select name="raqam" id="codeSelect">
                 <option value="Uzb">+998</option>
                 <option value="Rus">+48</option>
                 <option value="US">+997</option>
                 </select>
-                <input type="number" class="num" placeholder="enter number">
+                <input type="number" id="num" placeholder="enter number">
                 </div>
-                <div class="sms-wrapper">
+
                 <label for="Sms">Code from SMS</label>
-                <input type="text" name="sms" class="sms">
-                <input type="text" name="sms" class="sms">
-                <input type="text" name="sms" class="sms">
-                <input type="text" name="sms" class="sms">
+                <div class="sms-wrapper">
+                <input type="text" name="sms" class="sms" placeholder="1">
+                <input type="text" name="sms" class="sms" placeholder="2">
+                <input type="text" name="sms" class="sms" placeholder="3">
+                <input type="text" name="sms" class="sms" placeholder="4">
                 </div>
 
 
-                <div class="information">
+                <div id="smsWrapper" style="display: none;">
                     <img class="info" src="../assets/accountImgs/hint.png" alt="hint">
-                    <p class="text1">SMS was sent to your number +1 345 673-56-67 <br>It will be valid for 01:25</p>
+                    <p class="text1">SMS was sent to your number <span id="phoneOutput"></span> <br>It will be valid for 01:25</p>
                 </div>
+
+                <label for="email">Email address</label>
+                <input type="email"  id="email" placeholder="youremail@gmail.com">
+                <label for="password">Create Password</label>
+                <input type="password"  id="emailPassword">
             </form>
+
+            <img class="divider" src="./assets/accountImgs/divider.png" alt="divider">
+
+            <button class="next"><a class="next2" href="yourself.html">Next Step</a> <img class="arrow" src="./assets/accountImgs/white.png" alt="arrow"></button>
         </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
