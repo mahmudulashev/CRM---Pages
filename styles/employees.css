@@ -321,3 +321,7 @@ form input {
     transform: translate(-50%, 0);
     opacity: 1;
 }
+
+.ua {
+    display: none;
+}

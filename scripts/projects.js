@@ -90,3 +90,29 @@ people.innerHTML = html;
 
 
 
+const filterBtn1 = document.querySelector('.filter-btn-1');
+const filterBtn2 = document.querySelector('.filter-btn-2');
+const peopleDiv = document.querySelector('.people');
+const people2Div = document.querySelector('.people-2');
+const people3Div = document.querySelector('.people-3');
+const people4Div = document.querySelector('.people-4');
+
+filterBtn1.addEventListener('click', () => {
+    peopleDiv.style.display = 'flex';
+    people3Div.style.display = 'block';
+    people2Div.style.display = 'none';
+    people4Div.style.display = 'none';
+});
+
+filterBtn2.addEventListener('click', () => {
+    peopleDiv.style.display = 'none';
+    people3Div.style.display = 'none';
+    people2Div.style.display = 'flex';
+    people4Div.style.display = 'flex';
+});
+
+// Dastlab people va people-3 ko‘rinsin, boshqalari yashirin
+peopleDiv.style.display = 'flex';
+people3Div.style.display = 'block';
+people2Div.style.display = 'none';
+people4Div.style.display = 'none';
