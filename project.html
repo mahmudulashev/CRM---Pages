@@ -188,119 +188,109 @@
                     <span class="plus">+</span> Add Project
                 </button>
             </div>
+            <section class="katta-section-popapp">
 
-            <div class="add-orab-div1" style="display: none;" id="projectPage">
-                <div class="add-orab-turuvchi">
-                    <div class="btn-and-text">
-                        <h4>Add Task</h4>
-                        <button class="back-btn" onclick="yopish()"><i class="fa-solid fa-x"></i></button>
-                    </div>
-                    <form class="input-form" action="">
-                        <label for="name">Task Name</label>
-                        <input type="text" name="Task Name" id="name" placeholder="Task Name">
-                        <label for="design">Design <select id="design">
-                                <option value="design">Design</option>
-                                <option value="mobile">Mobil Ilova</option>
-                                <option value="desktop">Desktop Dastur</option>
-                                <option value="web">Web Dastur</option>
-                            </select>
-                        </label>
-                        <div class="input-joylashuv">
-                            <div class="div-input1">
-                                <label for="estimate">Estimate</label>
-                                <input type="time" name="estimate" id="estimate" placeholder="estimate">
+
+                <div class="add-orab-div1" style="display: none;" id="projectPage">
+                    <div class="add-orab-turuvchi">
+                        <div class="btn-and-text">
+                            <h4>Add Task</h4>
+                            <button class="back-btn" onclick="yopish()"><i class="fa-solid fa-x"></i></button>
+                        </div>
+                        <form class="input-form" action="">
+                            <label for="name">Task Name</label>
+                            <input type="text" name="Task Name" id="name" placeholder="Task Name">
+                            <label for="design">Design <select id="design">
+                                    <option value="design">Design</option>
+                                    <option value="mobile">Mobil Ilova</option>
+                                    <option value="desktop">Desktop Dastur</option>
+                                    <option value="web">Web Dastur</option>
+                                </select>
+                            </label>
+                            <div class="input-joylashuv">
+                                <div class="div-input1">
+                                    <label for="estimate">Estimate</label>
+                                    <input type="time" name="estimate" id="estimate" placeholder="estimate">
+                                </div>
+                                <div class="div-input2">
+                                    <label for="kun">Dead Line</label>
+                                    <input type="date" name="data" id="kun" placeholder="Select Date">
+                                </div>
                             </div>
-                            <div class="div-input2">
-                                <label for="kun">Dead Line</label>
-                                <input type="date" name="data" id="kun" placeholder="Select Date">
+                            <label for="medium">Medium <select id="medium">
+                                    <option value="medium">Medium</option>
+                                    <option value="low">Low</option>
+                                </select>
+                            </label>
+                            <label for="select">Select Assignee <select id="select">
+                                    <option value="design">Medium</option>
+                                    <option value="mobile">Low</option>
+                                </select>
+                            </label>
+                            <label for="description">Description
+                                <input type="text" placeholder="Add some description of the task" id="description">
+                            </label>
+
+
+
+                        </form>
+                        <div class="popapp-div-1">
+                            <div class="popapp-matn-1">
+                                <h2>Select image</h2>
+                                <p>Select or upload an avatar for the <br> project (available formats: jpg, png)</p>
+                            </div>
+                            <div class="popapp-img-div-1">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                            </div>
+                            <div class="popapp-img-div-1">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                            </div>
+                            <div class="popapp-img-div-1">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                            </div>
+                            <div class="popapp-img-div-1">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
+                                <img class="popapp-img" src="./assets/icons/popapp-img-1.png" alt="">
                             </div>
                         </div>
-                        <label for="medium">Medium <select id="medium">
-                                <option value="medium">Medium</option>
-                                <option value="low">Low</option>
-                            </select>
-                        </label>
-                        <label for="select">Select Assignee <select id="select">
-                                <option value="design">Medium</option>
-                                <option value="mobile">Low</option>
-                            </select>
-                        </label>
-                        <label for="description">Description
-                            <input type="text" placeholder="Add some description of the task" id="description">
-                        </label>
-
-
-
-                    </form>
-                    <div class="avatar-grid"
-                        style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px;">
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #ec4899, #f59e0b); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="1"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #06b6d4, #3b82f6); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="2"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #8b5cf6, #ec4899); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="3"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #06b6d4, #f59e0b); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="4"></div>
-
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #3b82f6, #1d4ed8); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="5"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #8b5cf6, #6366f1); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="6"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #06b6d4, #0891b2); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="7"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #10b981, #059669); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="8"></div>
-
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #ec4899, #be185d); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="9"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #f59e0b, #d97706); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="10"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #ef4444, #dc2626); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="11"></div>
-                        <div class="avatar-option"
-                            style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #3b82f6, #2563eb); cursor: pointer; border: 2px solid transparent;"
-                            data-avatar="12"></div>
+                        
+                        <div class="pink-div">
+                            <button class="pink-btn-div"><i class="fa-solid fa-link"></i></button>
+                            <button class="pink-btn-div1"><i class="fa-solid fa-paperclip"></i></button>
+                        </div>
+                        <button class="save">Save Task</button>
                     </div>
-
-
-
-                    <div class="pink-div">
-                        <button class="pink-btn-div"><i class="fa-solid fa-link"></i></button>
-                        <button class="pink-btn-div1"><i class="fa-solid fa-paperclip"></i></button>
-                    </div>
-                    <button class="save">Save Task</button>
                 </div>
-            </div>
-
+                
+            </section>
         </section>
         <section class="dsp">
-            
-                <section class="current">
-                    <div class="Current-Projects">
-                        <h3 class="h3-current">Current Projects <svg width="10" height="6" viewBox="0 0 10 6"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9.70711 0.292893C10.0676 0.653377 10.0953 1.22061 9.7903 1.6129L9.70711 1.70711L5.70711 5.70711C5.34662 6.06759 4.77939 6.09532 4.3871 5.7903L4.29289 5.70711L0.292893 1.70711C-0.0976305 1.31658 -0.0976305 0.683418 0.292893 0.292893C0.653378 -0.0675907 1.22061 -0.0953203 1.6129 0.209705L1.70711 0.292893L5 3.585L8.29289 0.292893C8.65338 -0.0675907 9.22061 -0.0953203 9.6129 0.209705L9.70711 0.292893Z"
-                                    fill="#0A1629" />
-                            </svg>
-                        </h3>
-                    </div>
-                    <div class="container">
-                    </div>
-                </section>
-         
+
+            <section class="current">
+                <div class="Current-Projects">
+                    <h3 class="h3-current">Current Projects <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.70711 0.292893C10.0676 0.653377 10.0953 1.22061 9.7903 1.6129L9.70711 1.70711L5.70711 5.70711C5.34662 6.06759 4.77939 6.09532 4.3871 5.7903L4.29289 5.70711L0.292893 1.70711C-0.0976305 1.31658 -0.0976305 0.683418 0.292893 0.292893C0.653378 -0.0675907 1.22061 -0.0953203 1.6129 0.209705L1.70711 0.292893L5 3.585L8.29289 0.292893C8.65338 -0.0675907 9.22061 -0.0953203 9.6129 0.209705L9.70711 0.292893Z"
+                                fill="#0A1629" />
+                        </svg>
+                    </h3>
+                </div>
+                <div class="container">
+                </div>
+            </section>
+
 
             <section class="task">
                 <div class="task-div">
@@ -397,8 +387,8 @@
 
                         </div>
                     </div>
-                
-               
+
+
                     <div class="people-div">
                         <div class="name">
                             <p>Task Name</p>
@@ -434,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-               
+
 
 
                 </div>
