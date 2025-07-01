@@ -204,3 +204,178 @@
     background-color: var(--white);
     font-size: var(--h3-size);
 }
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+    border-radius: var(--main-border-radius);
+}
+
+#hero-card-img {
+    border-right: 3px solid rgb(231, 228, 228);
+}
+
+.hero-card-level {
+    border: 1px solid gray;
+    padding: 0.1rem 0.3rem;
+    border-radius: 7px;
+    color: gray;
+    margin-top: 0.2rem;
+}
+
+.hero-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid var(--blue);
+}
+
+.first-line {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+.second-line {
+    display: flex;
+    gap: 30px;
+}
+
+.vacation {
+    position: relative;
+}
+
+.request {
+    position: absolute;
+    width: 166px;
+    height: 48px;
+    background-color: var(--blue);
+    border: transparent;
+    border-radius: 15px;
+    font-size: var(--p-size);
+    color: var(--white);
+    left: 630px;
+    top: -50px;
+}
+
+.vacation {
+    padding-top: 40px;
+}
+
+.topper-line {
+    display: flex;
+    gap: 30px;
+}
+
+.carder {
+    width: 265px;
+    height: 193px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.numss {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.numss1 {
+    border: 2px solid #15C0E6;
+    color: #15C0E6;
+}
+
+.numss2 {
+    border: 2px solid red;
+    color: red;
+}
+
+.numss3 {
+    border: 2px solid purple;
+    color: purple;
+}
+
+.remainDays {
+    color: gray;
+}
+
+.dates-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.date-cards {
+    width: 855px;
+    height: 91px;
+    background-color: var(--white);
+    display: flex;
+    gap: 80px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.duration {
+    padding-left: 60px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+}
+
+.orovchi {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.process {
+    width: 75px;
+    height: 30px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #FDC748;
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.process2 {
+    background-color: #00D097;
+}
+
+.texton1 {
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.sick {
+    font-weight: 750;
+}
+
+.justHeading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
