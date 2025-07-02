@@ -11,6 +11,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 40,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-8.png',
@@ -24,6 +27,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
         
     },
     {
@@ -38,6 +44,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-2.png',
@@ -51,6 +60,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-3.png',
@@ -77,6 +89,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-5.png',
@@ -90,6 +105,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-7.png',
@@ -103,6 +121,9 @@ export const employees = [
         vacations: 14,
         sick: 2,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
 
 ]
