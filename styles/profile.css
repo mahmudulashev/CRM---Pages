@@ -332,6 +332,7 @@
     justify-content: start;
     align-items: center;
     padding-left: 30px;
+    border-radius: var(--main-border-radius);
 }
 
 .duration {
@@ -359,6 +360,10 @@
     color: white;
     font-size: 14px;
     font-weight: 550;
+}
+
+.process1 {
+    margin-left: 10px;
 }
 
 .process2 {
