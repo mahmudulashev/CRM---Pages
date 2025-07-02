@@ -52,6 +52,42 @@ for (let i = 0; i < employees.length; i++) {
     employeesDiv.innerHTML += addEmployee(employees[i]);
 }
 
+function activeEmployee(employee) {
+    let template = `<div class="hero-card">
+                    <div class="hero-card-div">
+                        <img src="${employee.img}" alt="">
+                        <h3>${employee.name}</h3>
+                        <p>${employee.position}</p>
+                        <p class="hero-card-level">${employee.level}</p>
+                    </div>
+
+                    <div class="hero-card-bottom">
+                        <div>
+                            <h3>${employee.backlog}</h3>
+                            <p>Backlog tasks</p>
+                        </div>
+
+                        <div>
+                            <h3>${employee.tasks}</h3>
+                            <p>Tasks In Progress</p>
+                        </div>
+
+                        <div>
+                            <h3>${employee.tasksInReview}</h3>
+                            <p>Tasks In Review</p>
+                        </div>
+                    </div>
+
+
+                </div>`
+    return template
+}
+
+const heroCards = document.querySelector('.hero-cards');
+for (let i = 0; i < employees.length; i++) {
+    heroCards.innerHTML += activeEmployee(employees[i]);
+}
+
 const btn1 = document.getElementById("close-popup");
 const overlay = document.querySelector('.overlay');
 const popup = document.querySelector('.popup');

@@ -333,13 +333,13 @@ form input {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 2rem;
     flex-wrap: wrap;
 }
 
 .hero-card {
-    width: 265px;
+    width: 300px;
     height: 320px;
     border-radius: var(--main-border-radius);
     background-color: var(--white);

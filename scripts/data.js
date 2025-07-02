@@ -76,6 +76,9 @@ export const employees = [
         vacations: 15,
         sick: 3,
         remotely: 50,
+        backlog: 0,
+        tasks: 16,
+        tasksInReview: 2,
     },
     {
         img: './assets/profile-pics/hero-pics/hero-pic-1.png',
