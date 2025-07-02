@@ -379,3 +379,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.settings-div {
+    display: none;
+}

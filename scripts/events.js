@@ -57,6 +57,35 @@ const message = document.getElementById('message');
 
 approveForm.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    // Popup inputlaridan qiymatlarni olish
+    const name = document.getElementById('name').value.trim();
+    // Category va Priority uchun bir nechta select bor, shuning uchun querySelectorAll ishlatamiz
+    const selects = popup.querySelectorAll('select');
+    const category = selects[0].value;
+    const priority = selects[1].value;
+    const date = document.getElementById('date').value;
+    const time = document.getElementById('time').value;
+    const description = document.getElementById('description').value.trim();
+
+    // events[0] dan qolgan fieldlarni olish
+    const templateEvent = { ...events[0] };
+    templateEvent.name = name;
+    templateEvent.date = date + ' | ' + time;
+    templateEvent.hour = templateEvent.hour; // yoki hisoblab chiqish mumkin
+    templateEvent.description = description;
+    // Category va Priority asosida icon va borderColor ni moslashtirish (optional, hozir events[0] dan olamiz)
+    // Priority va category fieldlari events massivida yo'q, lekin kerak bo'lsa qo'shish mumkin
+
+    // Yangi eventni massivga qo'shish
+    events.push(templateEvent);
+
+    // Events ro'yxatini yangilash
+    eventsContainer.innerHTML = '';
+    for (let i = 0; i < events.length; i++) {
+        eventsContainer.innerHTML += renderEvents(events[i]);
+    }
+
     message.classList.add('active');
     popup.classList.remove('activ');
     overlay.classList.remove('active');
