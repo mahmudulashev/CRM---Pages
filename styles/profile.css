@@ -386,5 +386,92 @@
 }
 
 .settings-div {
-    display: none;
+    display: block;
+    margin-top: 100px;  
+    position: relative;
+}
+
+.settings-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.settinger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--h3-size);
+    font-weight: 600;
+    padding-bottom: 40px;
+    position: absolute;
+    top: -80px;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+}
+
+.lefters {
+    padding-top: 10px;
+    width: 265px;
+    height: 944px;
+    background-color: white;
+    border-radius: var(--main-border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.akkount1 {
+    padding-top: 20px;
+}
+
+.accountSection {
+    display: flex;
+    gap: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+.righters {
+    width: 560px;
+    height: 944px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--main-border-radius);
+    gap: 20px;
+}
+
+
+.long-cards {
+    width: 511px;
+    height: 82px;
+    background-color: #F4F9FD;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border-radius: var(--secondary-border-radius);
+}
+
+.checker-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.text-checkbox {
+    font-size: var(--p-size);
+}
+
+#tick {
+    width: 20px;
+    height: 20px;
 }
