@@ -57,6 +57,28 @@ const message = document.getElementById('message');
 
 approveForm.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const selects = popup.querySelectorAll('select');
+    const category = selects[0].value;
+    const priority = selects[1].value;
+    const date = document.getElementById('date').value;
+    const time = document.getElementById('time').value;
+    const description = document.getElementById('description').value.trim();
+
+    const templateEvent = { ...events[0] };
+    templateEvent.name = name;
+    templateEvent.date = date + ' | ' + time;
+    templateEvent.hour = templateEvent.hour;
+    templateEvent.description = description;
+
+    events.push(templateEvent);
+
+    eventsContainer.innerHTML = '';
+    for (let i = 0; i < events.length; i++) {
+        eventsContainer.innerHTML += renderEvents(events[i]);
+    }
+
     message.classList.add('active');
     popup.classList.remove('activ');
     overlay.classList.remove('active');

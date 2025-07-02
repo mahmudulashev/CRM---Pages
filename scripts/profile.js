@@ -27,3 +27,20 @@ tabs.forEach(tab => {
 
 hideAll();
 projectsDiv.style.display = 'block';
+
+const settingsBtns = document.querySelectorAll('.settings');
+const rightings = document.querySelector('.rightings');
+
+settingsBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+        rightings.style.display = 'none';
+        settingsBtns.forEach(b => b.style.display = 'none');
+        let settingsDiv = document.querySelector('.settings-div');
+        settingsDiv.style.display = 'block';
+        settingsDiv.querySelector('.back-btn').onclick = function() {
+            settingsDiv.style.display = 'none';
+            rightings.style.display = '';
+            settingsBtns.forEach(b => b.style.display = '');
+        };
+    });
+});
