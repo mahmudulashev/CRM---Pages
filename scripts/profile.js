@@ -6,6 +6,10 @@ let projectDiv = document.querySelector('.project');
 let teamDiv = document.querySelector('.team');
 let vacationsDiv = document.querySelector('.vacations');
 let heroLeftTopInfo = document.querySelector('.hero-left-top-info');
+let settingsBtn = document.querySelector('.settings-btn');
+let buttonBack = document.querySelector('.button-back');
+let settings = document.querySelector('.settings');
+let heroLeft = document.querySelector('.hero-left');
 
 projectBtn.addEventListener('click', () => {
     projectBtn.classList.add('active');
@@ -37,3 +41,14 @@ vacationsBtn.addEventListener('click', () => {
     heroLeftTopInfo.style.opacity = '0';
 });
 
+settingsBtn.addEventListener('click', () => {
+    settings.style.display = 'flex';
+    heroLeft.style.display = 'none';
+    settingsBtn.style.display = 'none';
+});
+
+buttonBack.addEventListener('click', () => {
+    settings.style.display = 'none';
+    heroLeft.style.display = 'block';
+    settingsBtn.style.display = 'flex';
+});
