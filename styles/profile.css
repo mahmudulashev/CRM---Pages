@@ -204,3 +204,274 @@
     background-color: var(--white);
     font-size: var(--h3-size);
 }
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+    border-radius: var(--main-border-radius);
+}
+
+#hero-card-img {
+    border-right: 3px solid rgb(231, 228, 228);
+}
+
+.hero-card-level {
+    border: 1px solid gray;
+    padding: 0.1rem 0.3rem;
+    border-radius: 7px;
+    color: gray;
+    margin-top: 0.2rem;
+}
+
+.hero-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid var(--blue);
+}
+
+.first-line {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+.second-line {
+    display: flex;
+    gap: 30px;
+}
+
+.vacation {
+    position: relative;
+}
+
+.request {
+    position: absolute;
+    width: 166px;
+    height: 48px;
+    background-color: var(--blue);
+    border: transparent;
+    border-radius: 15px;
+    font-size: var(--p-size);
+    color: var(--white);
+    left: 630px;
+    top: -50px;
+}
+
+.vacation {
+    padding-top: 40px;
+}
+
+.topper-line {
+    display: flex;
+    gap: 30px;
+}
+
+.carder {
+    width: 265px;
+    height: 193px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.numss {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.numss1 {
+    border: 2px solid #15C0E6;
+    color: #15C0E6;
+}
+
+.numss2 {
+    border: 2px solid red;
+    color: red;
+}
+
+.numss3 {
+    border: 2px solid purple;
+    color: purple;
+}
+
+.remainDays {
+    color: gray;
+}
+
+.dates-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.date-cards {
+    width: 855px;
+    height: 91px;
+    background-color: var(--white);
+    display: flex;
+    gap: 80px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: var(--main-border-radius);
+}
+
+.duration {
+    padding-left: 60px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+}
+
+.orovchi {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.process {
+    width: 75px;
+    height: 30px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #FDC748;
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.process1 {
+    margin-left: 10px;
+}
+
+.process2 {
+    background-color: #00D097;
+}
+
+.texton1 {
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.sick {
+    font-weight: 750;
+}
+
+.justHeading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.settings-div {
+    display: block;
+    margin-top: 100px;  
+    position: relative;
+}
+
+.settings-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.settinger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--h3-size);
+    font-weight: 600;
+    padding-bottom: 40px;
+    position: absolute;
+    top: -80px;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+}
+
+.lefters {
+    padding-top: 10px;
+    width: 265px;
+    height: 944px;
+    background-color: white;
+    border-radius: var(--main-border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.akkount1 {
+    padding-top: 20px;
+}
+
+.accountSection {
+    display: flex;
+    gap: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+.righters {
+    width: 560px;
+    height: 944px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--main-border-radius);
+    gap: 20px;
+}
+
+
+.long-cards {
+    width: 511px;
+    height: 82px;
+    background-color: #F4F9FD;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border-radius: var(--secondary-border-radius);
+}
+
+.checker-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.text-checkbox {
+    font-size: var(--p-size);
+}
+
+#tick {
+    width: 20px;
+    height: 20px;
+}
