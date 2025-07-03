@@ -20,6 +20,15 @@
     --main-font: "Nunito Sans", sans-serif;
 }
 
+.active-people-div{
+
+}
+
+
+.active-people-div1{
+    display: flex;
+    justify-content: space-between;
+}
 .popapp-div-1 {
     padding: 5px 0px;
     border: 2px solid grey;
@@ -100,36 +109,6 @@
     padding: 2px 5px;
     font-size: 16px;
 }
-
-.current {
-    width: 28%;
-    height: 1325px;
-    background-color: var(--white);
-    box-shadow: var(--box-shadow);
-    align-items: center;
-    justify-content: center;
-    margin: 15px 1px;
-    border-radius: var(--main-border-radius);
-}
-
-.Current-Projects {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
-}
-
-.h3-current {
-    padding: 2rem 1rem 1.2rem 1.3rem;
-    border-bottom: 1px solid rgba(228, 230, 232, 1);
-    width: 100%;
-    font-weight: 650;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0px;
-
-}
-
 .container {
     display: flex;
     align-items: start;
