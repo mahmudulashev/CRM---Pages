@@ -18,12 +18,16 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
 
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/global-style.css">
     <link rel="stylesheet" href="./styles/profile.css">
+
+    <script defer src="./scripts/profile.js"></script>
 </head>
 
 <body>
@@ -150,349 +154,169 @@
                 </div>
 
                 <!-- ACCOUNT -->
-               <a href="./profile.html"><div class="account">
-                    <img src="./assets/profile-pics/hero-pics/hero-pic-9.png" alt="User Avatar">
-                    <span class="account-name">Evan Yates <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M16.7071 9.29289C17.0676 9.65338 17.0953 10.2206 16.7903 10.6129L16.7071 10.7071L12.7071 14.7071C12.3466 15.0676 11.7794 15.0953 11.3871 14.7903L11.2929 14.7071L7.29289 10.7071C6.90237 10.3166 6.90237 9.68342 7.29289 9.29289C7.65338 8.93241 8.22061 8.90468 8.6129 9.2097L8.70711 9.29289L12 12.585L15.2929 9.29289C15.6534 8.93241 16.2206 8.90468 16.6129 9.2097L16.7071 9.29289Z"
-                                fill="#0A1629" />
-                        </svg>
-                    </span>
-                </div></a> 
+                <a href="./profile.html">
+                    <div class="account">
+                        <img src="./assets/profile-pics/hero-pics/hero-pic-9.png" alt="User Avatar">
+                        <span class="account-name">Evan Yates <svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.7071 9.29289C17.0676 9.65338 17.0953 10.2206 16.7903 10.6129L16.7071 10.7071L12.7071 14.7071C12.3466 15.0676 11.7794 15.0953 11.3871 14.7903L11.2929 14.7071L7.29289 10.7071C6.90237 10.3166 6.90237 9.68342 7.29289 9.29289C7.65338 8.93241 8.22061 8.90468 8.6129 9.2097L8.70711 9.29289L12 12.585L15.2929 9.29289C15.6534 8.93241 16.2206 8.90468 16.6129 9.2097L16.7071 9.29289Z"
+                                    fill="#0A1629" />
+                            </svg>
+                        </span>
+                    </div>
+                </a>
             </div>
         </header>
 
 
 
 
-                                  <!-- ================= YOU CAN ADD ANY CONTENT HERE ================= -->
+        <!-- ================= YOU CAN ADD ANY CONTENT HERE ================= -->
 
 
 
         <!-- TOP-HERO -->
         <section class="top-hero">
-            <h2 class="main-h2 headinger">My Profile</h2>
-            <button class="settings">
-                <img class="setting" src="./assets/profPhotos/settings.png" alt="setting icon">
-            </button>
+            <h2 class="main-h2">My Profile</h2>
 
+            <div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 0C10.3431 0 9 1.34315 9 3V3.17L8.99255 3.26444C8.96857 3.41945 8.88797 3.56073 8.76793 3.66135L8.706 3.705L8.64655 3.71811C8.60218 3.73073 8.55864 3.74642 8.51623 3.76514C8.27314 3.87243 7.98922 3.82095 7.79926 3.63514L7.74711 3.58289C7.18479 3.01996 6.42123 2.70343 5.625 2.70343C4.82877 2.70343 4.0652 3.01996 3.5025 3.58329C2.93996 4.14521 2.62343 4.90877 2.62343 5.705C2.62343 6.43488 2.8894 7.13731 3.36764 7.68274L3.56289 7.88711C3.74095 8.06922 3.79243 8.35314 3.68514 8.59623C3.56934 8.90531 3.33344 9.07403 3.06662 9.08027L3 9.08C1.34315 9.08 0 10.4231 0 12.08C0 13.7369 1.34315 15.08 3 15.08H3.17C3.42508 15.081 3.6588 15.2358 3.76086 15.4739C3.87243 15.7269 3.82095 16.0108 3.63514 16.2007L3.58289 16.2529C3.01996 16.8152 2.70343 17.5788 2.70343 18.375C2.70343 19.1712 3.01996 19.9348 3.58329 20.4975C4.14521 21.06 4.90877 21.3766 5.705 21.3766C6.43488 21.3766 7.13731 21.1106 7.68274 20.6324L7.88711 20.4371C8.06922 20.2591 8.35314 20.2076 8.59623 20.3149C8.90531 20.4307 9.07403 20.6666 9.08027 20.9334L9.08 21C9.08 22.6569 10.4231 24 12.08 24C13.7369 24 15.08 22.6569 15.08 21V20.83C15.081 20.5749 15.2358 20.3412 15.4739 20.2391C15.7269 20.1276 16.0108 20.1791 16.2007 20.3649L16.2529 20.4171C16.8152 20.98 17.5788 21.2966 18.375 21.2966C19.1712 21.2966 19.9348 20.98 20.4975 20.4167C21.06 19.8548 21.3766 19.0912 21.3766 18.295C21.3766 17.5651 21.1106 16.8627 20.6324 16.3173L20.4371 16.1129C20.2591 15.9308 20.2076 15.6469 20.3149 15.4038C20.4212 15.1558 20.6549 15.001 20.914 15L21 15C22.6569 15 24 13.6569 24 12C24 10.3431 22.6569 9 21 9H20.83L20.7356 8.99255C20.5805 8.96857 20.4393 8.88797 20.3386 8.76793L20.294 8.706L20.2819 8.64655C20.2693 8.60218 20.2536 8.55864 20.2349 8.51623C20.1276 8.27314 20.1791 7.98922 20.3649 7.79926L20.4171 7.74711C20.98 7.18479 21.2966 6.42123 21.2966 5.625C21.2966 4.82877 20.98 4.0652 20.4167 3.5025C19.8548 2.93996 19.0912 2.62343 18.295 2.62343C17.5651 2.62343 16.8627 2.8894 16.3173 3.36764L16.1129 3.56289C15.9308 3.74095 15.6469 3.79243 15.4038 3.68514C15.1558 3.5788 15.001 3.34508 15 3.08601L15 3C15 1.34315 13.6569 0 12 0ZM12 2C12.5523 2 13 2.44772 13 3V3.09C13.0042 4.1502 13.6353 5.10306 14.6061 5.51914C15.5873 5.95227 16.7448 5.74239 17.5193 4.98486L17.5871 4.91711C17.7751 4.72894 18.0296 4.62343 18.295 4.62343C18.5604 4.62343 18.8149 4.72894 19.0025 4.91671C19.1911 5.10507 19.2966 5.35959 19.2966 5.625C19.2966 5.89041 19.1911 6.14493 19.0033 6.3325L18.9429 6.39289L18.8136 6.53472C18.2375 7.21376 18.0416 8.12568 18.2775 8.96794L18.32 9C18.32 9.13543 18.3475 9.26945 18.4009 9.39393C18.8169 10.3647 19.7698 10.9958 20.826 11L21 11C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H20.91C19.8498 13.0042 18.8969 13.6353 18.4809 14.6061C18.0477 15.5873 18.2576 16.7448 19.0151 17.5193L19.0829 17.5871C19.2711 17.7751 19.3766 18.0296 19.3766 18.295C19.3766 18.5604 19.2711 18.8149 19.0833 19.0025C18.8949 19.1911 18.6404 19.2966 18.375 19.2966C18.1096 19.2966 17.8551 19.1911 17.6675 19.0033L17.6071 18.9429C16.8248 18.1776 15.6673 17.9677 14.6762 18.4051C13.7153 18.8169 13.0842 19.7698 13.08 20.826L13.08 21C13.08 21.5523 12.6323 22 12.08 22C11.5277 22 11.08 21.5523 11.08 21V20.91C11.0558 19.8641 10.4451 18.9507 9.52187 18.5337L9.34518 18.4615C8.41268 18.0477 7.25516 18.2576 6.48073 19.0151L6.41289 19.0829C6.22493 19.2711 5.97041 19.3766 5.705 19.3766C5.43959 19.3766 5.18507 19.2711 4.9975 19.0833C4.80894 18.8949 4.70343 18.6404 4.70343 18.375C4.70343 18.1096 4.80894 17.8551 4.99671 17.6675L5.05711 17.6071C5.82239 16.8248 6.03227 15.6673 5.59486 14.6762C5.18306 13.7153 4.2302 13.0842 3.17399 13.08L3 13.08C2.44772 13.08 2 12.6323 2 12.08C2 11.5277 2.44772 11.08 3 11.08H3.09C4.13585 11.0558 5.04927 10.4451 5.46626 9.52187L5.53854 9.34518C5.95227 8.41268 5.74239 7.25516 4.98486 6.48073L4.91711 6.41289C4.72894 6.22493 4.62343 5.97041 4.62343 5.705C4.62343 5.43959 4.72894 5.18507 4.91671 4.9975C5.10507 4.80894 5.35959 4.70343 5.625 4.70343C5.89041 4.70343 6.14493 4.80894 6.3325 4.99671L6.39289 5.05711L6.53472 5.18637C7.21376 5.76253 8.12568 5.95835 8.96794 5.72251L9 5.68C9.13543 5.68 9.26945 5.65249 9.39393 5.59914C10.3647 5.18306 10.9958 4.2302 11 3.17399L11 3C11 2.44772 11.4477 2 12 2ZM12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10Z"
+                        fill="#0A1629" />
+                </svg>
+            </div>
+        </section>
+        <section class="hero">
+            <div class="hero-right">
+
+                <div class="hero-right-top">
+                    <div class="salom">
+                        <img src="./assets/profile-pics/hero-pics/hero-pic-9.png" alt="User Avatar">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.8787 2.87868L7.29289 11.4645C7.10536 11.652 7 11.9064 7 12.1716V16.1716C7 16.7239 7.44772 17.1716 8 17.1716H12C12.2652 17.1716 12.5196 17.0662 12.7071 16.8787L21.2929 8.29289C22.4645 7.12132 22.4645 5.22183 21.2929 4.05025L20.1213 2.87868C18.9497 1.70711 17.0503 1.70711 15.8787 2.87868ZM19.8787 5.46447L19.9619 5.55867C20.2669 5.95096 20.2392 6.5182 19.8787 6.87868L11.584 15.1716H9V12.5856L17.2929 4.29289C17.6834 3.90237 18.3166 3.90237 18.7071 4.29289L19.8787 5.46447ZM11.0308 4.17157C11.0308 3.61929 10.5831 3.17157 10.0308 3.17157H6L5.78311 3.17619C3.12231 3.28975 1 5.48282 1 8.17157V18.1716L1.00462 18.3885C1.11818 21.0493 3.31125 23.1716 6 23.1716H16L16.2169 23.167C18.8777 23.0534 21 20.8603 21 18.1716V13.2533L20.9933 13.1366C20.9355 12.6393 20.5128 12.2533 20 12.2533C19.4477 12.2533 19 12.701 19 13.2533V18.1716L18.9949 18.3478C18.9037 19.9227 17.5977 21.1716 16 21.1716H6L5.82373 21.1665C4.24892 21.0752 3 19.7693 3 18.1716V8.17157L3.00509 7.9953C3.09634 6.42049 4.40232 5.17157 6 5.17157H10.0308L10.1474 5.16485C10.6448 5.10708 11.0308 4.68441 11.0308 4.17157Z"
+                                fill="#0A1629" />
+                        </svg>
+                    </div>
+                    <h3>Evan Yates</h3>
+                    <p>UI/UX Designer</p>
+
+                </div>
+
+                <div class="hero-right-bottom">
+                    <h3>Main info</h3>
+                    <p>Position</p>
+                    <div>UI/UX Designer</div>
+                    <p>Company</p>
+                    <div>Cadabra</div>
+                    <p>Location</p>
+                    <div>New York, USA</div>
+                    <p>Birthday Date</p>
+                    <div>May 19, 1996</div>
+                    <h3 class="contact-info">Contact Info</h3>
+                    <p>Email</p>
+                    <div>evan.yates@gmail.com</div>
+                    <p>Phone</p>
+                    <div>+1 234 567 890</div>
+                    <p>Skype</p>
+                    <div>evan.yates</div>
+
+                </div>
+            </div>
+
+            <section class="hero-left">
+                <div class="hero-left-top">
+                    <div class="hero-left-top-buttons">
+                        <button type="button" class="project-btn active">Projects</button>
+                        <button type="button" class="team-btn">Team</button>
+                        <button type="button" class="vacations-btn">My vacations</button>
+                    </div>
+
+                    <div class="hero-left-top-info">
+                        <div class="filter">
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M3 0H14.0926C14.8274 0 15.5366 0.269636 16.0857 0.757772C17.3241 1.85853 17.4356 3.75474 16.3349 4.99309L11.5463 10.379V16.7639C11.5463 17.0598 11.4912 17.3523 11.3845 17.6269L11.2948 17.8292C10.7065 19.0058 9.27574 19.4827 8.0991 18.8944L7.20467 18.4472C6.18832 17.939 5.54631 16.9002 5.54631 15.7639V10.381L0.757772 4.99309C0.318449 4.49885 0.0561121 3.87498 0.00803794 3.21952L0 3C0 1.34315 1.34315 0 3 0ZM14.0926 2H3C2.44772 2 2 2.44772 2 3C2 3.24491 2.08988 3.48131 2.25259 3.66436L7.29372 9.33564C7.45643 9.51869 7.54631 9.75509 7.54631 10V15.7639C7.54631 16.1427 7.76031 16.489 8.0991 16.6584L8.99353 17.1056C9.18221 17.1999 9.41165 17.1234 9.50599 16.9348C9.53251 16.8817 9.54631 16.8232 9.54631 16.7639V10C9.54631 9.75509 9.63619 9.51869 9.7989 9.33564L14.84 3.66436C15.207 3.25158 15.1698 2.61951 14.757 2.25259C14.5739 2.08988 14.3375 2 14.0926 2Z"
+                                    fill="#0A1629" />
+                            </svg>
+
+                        </div>
+
+                        <div class="current-project">
+                            <h3>Current projects </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-left-bottom">
+                    <div class="project bottom-active">
+                        <div class="projects-card">
+                            <div class="card-left">
+                                <div class="card-left-top">
+                                    <img src="./assets/other-photos/Image.svg" alt="">
+                                    <span>
+                                        <p>Cadabra</p>
+                                        <h4>Project Management</h4>
+                                    </span>
+                                </div>
+
+                                <div class="card-left-bottom">
+                                    <p><svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4 1C4 0.447715 4.44772 0 5 0C5.55228 0 6 0.447715 6 1V2H12V1C12 0.447715 12.4477 0 13 0C13.5523 0 14 0.447715 14 1V2C16.2091 2 18 3.79086 18 6V16C18 18.2091 16.2091 20 14 20H4C1.79086 20 0 18.2091 0 16V6C0 3.79086 1.79086 2 4 2V1ZM12 4C12 4.55228 12.4477 5 13 5C13.5523 5 14 4.55228 14 4L14.1493 4.00549C15.1841 4.08183 16 4.94564 16 6V7H2V6L2.00549 5.85074C2.08183 4.81588 2.94564 4 4 4C4 4.55228 4.44772 5 5 5C5.55228 5 6 4.55228 6 4H12Z"
+                                                fill="#7D8592" />
+                                        </svg>
+                                        Created Sep 12, 2020</p>
+                                    <h4> <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.6129 0.209705L6.70711 0.292893L11.7071 5.29289C12.0976 5.68342 12.0976 6.31658 11.7071 6.70711C11.3466 7.06759 10.7794 7.09532 10.3871 6.7903L10.2929 6.70711L7 3.415V15C7 15.5523 6.55228 16 6 16C5.48716 16 5.06449 15.614 5.00673 15.1166L5 15V3.415L1.70711 6.70711C1.34662 7.06759 0.779392 7.09532 0.387101 6.7903L0.292893 6.70711C-0.0675907 6.34662 -0.0953203 5.77939 0.209705 5.3871L0.292893 5.29289L5.29289 0.292893C5.65338 -0.0675907 6.22061 -0.0953203 6.6129 0.209705Z"
+                                                fill="#FFBD21" />
+                                        </svg> High</h4>
+                                </div>
+                            </div>
+
+                            <div class="card-right">
+                                <h4>Project Data</h4>
+                                <div>
+                                    <span>
+                                        <p>All tasks</p>
+                                        <h5>10</h5>
+                                    </span>
+                                    <span>
+                                        <p>Active Task</p>
+                                        <h5>5</h5>
+                                    </span>
+                                    <span>
+                                        <p>Assignees</p>
+                                        <h5>3</h5>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="hero-card">
+                            <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-1.png" alt="">
+                            <h3>Evan Yates</h3>
+                            <p>UI/UX Designer</p>
+                            <p class="hero-card-level">Senior</p>
+                        </div>
+                    </div>
+                    <div class="vacations">
+                        <h1>Halom</h1>
+                    </div>
+                </div>
+
+            </section>
         </section>
 
-        <div class="wrappings">
-            <div class="leftings">
-                <div class="profilee">
-                    <div class="pics">
-                    <img class="progress" src="./assets/profPhotos/progress.png" alt="progress">
-                    <img class="man" src="./assets/profPhotos/man.png" alt="man">
-                    
-                    <button class="ruchka"><img src="./assets/profPhotos/filter.png" alt="filter" ></button>
-                    </div>
-                </div>
-                <div class="yozuvlar">
-                    <h3 class="nameProf">Evan Yates</h3>
-                    <p class="texting">UI/UX Designer</p>
-                </div>
-                <hr class="profHr">
-
-                <div class="Infos">
-                    <h3 class="nameProf">Main Info</h3>
-                    <p class="sorovlar">Position</p>
-                    <div class="squares">
-                        <div class="texters">UI/UX Designer</div>
-                    </div>
-                    <p class="sorovlar">Company</p>
-                    <div class="squares">
-                        <div class="texters">Cadabra</div>
-                    </div>
-                    <p class="sorovlar">Location</p>
-                    <div class="squares">
-                        <div class="texters">NYC, New York, USA</div> 
-                        <img src="./assets/profPhotos/location.png" alt="location">
-                    </div>
-                    <p class="sorovlar">Birthday date</p>
-                    <div class="squares">
-                        <div class="texters">May 19, 1996</div> 
-                        <img class="calendar" src="./assets/profPhotos/calendar.png" alt="calendar">
-                    </div>
-
-
-
-                    <h3 class="nameProf">Contact Info</h3>
-                    <p class="sorovlar">Email</p>
-                    <div class="squares">
-                        <div class="texters">evanyates@gmail.com</div> 
-                    </div>
-
-                    <p class="sorovlar">Mobile Number</p>
-                    <div class="squares">
-                        <div class="texters">+1 675 346 23-10</div> 
-                    </div>
-
-                    <p class="sorovlar">Skype</p>
-                    <div class="squares">
-                        <div class="texters">Evan 2256</div> 
-                    </div>
-
-
-
-                    <p class="sorovlar"></p>
-                    <p class="sorovlar"></p>
-                    <p class="sorovlar"></p>
-
-
-                </div>
-            </div>
-
-
-
-            <div class="settings-div">
-                <div class="settings-wrapper">
-                <div class="settinger">
-                    <img class="left-arrow" src="./assets/accountImgs/previous.png" alt="previous"><a href="#">Settings</a></div>
-                <div class="lefters">
-                    <div class="accountSection akkount1">
-                        <img class="logochalar" src="./assets/profPhotos/account.png" alt="account">
-                        <p class="namers">Account</p>
-                    </div>
-                    <div class="accountSection ">
-                        <img class="logochalar" src="./assets/profPhotos/ring.png" alt="account">
-                        <p class="namers">Notifications</p>
-                    </div>
-                    <div class="accountSection ">
-                        <img class="logochalar" src="./assets/profPhotos/building.png" alt="account">
-                        <p class="namers">My Company</p>
-                    </div>
-                    <div class="accountSection ">
-                        <img class="logochalar" src="./assets/profPhotos/troy.png" alt="account">
-                        <p class="namers">Connected Apps</p>
-                    </div>
-                    <div class="accountSection ">
-                        <img class="logochalar" src="./assets/profPhotos/case.png" alt="account">
-                        <p class="namers">Payments</p>
-                    </div>
-                    <div class="accountSection ">
-                        <img class="logochalar" src="./assets/profPhotos/lock.png" alt="account">
-                        <p class="namers">Confidentialty</p>
-                    </div>
-                    <div class="accountSection ">
-                        <img class="logochalar" src="./assets/profPhotos/safe.png" alt="account">
-                        <p class="namers">Safety</p>
-                    </div>
-
-                </div>
-                <div class="righters">
-                    <h3 class="hider notif">Notifications</h3>
-                    <div class="long-cards">
-                        <h4 class="hider">Tracking Activity</h4>
-                        <p class="text-long">Send me notifications when someone’ve tracked time in tasks</p>
-                    </div>
-                    <div class="long-cards">
-                        <h4 class="hider">Issue Activity</h4>
-                        <p class="text-long">Send me email notifications for issue activity</p>
-                    </div>
-                    <div class="long-cards">
-                        <h4 class="hider">New Comments</h4>
-                        <p class="text-long">Send me notifications when someone’ve sent the comment</p>
-                    </div>
-
-                    <div class="checker-wrapper">
-                        <input type="checkbox" name="checkbox" id="tick">
-                        <p class="text-checkbox">Don't send me notifications after 9:00 PM</p>
-                    </div>
-
-                </div>
-
-                </div>
-            </div>
-
-            <!-- RIGHTINGS -->
-            <div class="rightings">
-                <div class="top-wrappers">
-                    <div class="tabs-wrapper">
-                        <div class="tab-indicator"></div>
-                        <button class="tab tab1 active" >Projects</button>
-                        <button class="tab tab2" >Team</button>
-                        <button class="tab tab3">My vacations</button>
-                    </div>
-
-                    <button class="settings filter">
-                        <img class="filtering" src="./assets/profPhotos/notifications.png" alt="filtering">
-                    </button>
-
-                    <button class="projects">Current Projects <img src="./assets/profPhotos/arrow.png" alt="arrow" class="arrow"></button>
-
-
-                </div>
-
-                <div class="projects1">
-                    <h2>Salom</h2>
-                </div>
-
-                <div class="team">
-                    <div class="first-line">
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-1.png" alt="">
-                        <h3>Shawn Stone</h3>
-                        <p>UI/UX Designer</p>
-                        <p class="hero-card-level">Middle</p>
-                    </div>                    
-                
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-2.png" alt="">
-                        <h3>Randy Delgado</h3>
-                        <p>UI/UX Designer</p>
-                        <p class="hero-card-level">Junior</p>
-                    </div>
-
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-3.png" alt="">
-                        <h3>Emily Tyler</h3>
-                        <p>Copywriter</p>
-                        <p class="hero-card-level">Middle</p>
-                    </div>
-
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-5.png" alt="">
-                        <h3>Blake Silva</h3>
-                        <p>IOS Developer</p>
-                        <p class="hero-card-level">Senior</p>
-                    </div>
-
-                    
-                </div>
-
-                <!-- SECOND LINE -->
-                    <div class="second-line">
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-8.png" alt="">
-                        <h3>Oscar Holloway</h3>
-                        <p>UI/UX Designer</p>
-                        <p class="hero-card-level">Middle</p>
-                    </div>
-
-
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-7.png" alt="">
-                        <h3>Joel Phillips</h3>
-                        <p>Copywriter</p>
-                        <p class="hero-card-level">Junior</p>
-                    </div>
-
-                    <div class="hero-card">
-                        <img id="hero-card-img" src="./assets/profile-pics/hero-pics/hero-pic-9.png" alt="">
-                        <h3>Evan Yates</h3>
-                        <p>Software Engineer</p>
-                        <p class="hero-card-level">Middle</p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="vacation">
-                    <button class="request">+ Add Request</button>
-                    <div class="topper-line">
-                        <div class="carder">
-                            <div class="numss numss1">12</div>
-                            <h3 class="timeHoliday">Vacation</h3>
-                            <div class="remainDays">12/16 days availible</div>
-                        </div>
-                        <div class="carder">
-                            <div class="numss numss2">6</div>
-                            <h3 class="timeHoliday">Sick Leave</h3>
-                            <div class="remainDays">6/12 days availible</div>
-                        </div>
-                        <div class="carder">
-                            <div class="numss numss3">42</div>
-                            <h3 class="timeHoliday">Work remotely</h3>
-                            <div class="remainDays">42/50 days availible</div>
-                        </div>
-
-                    </div>
-
-                    <div class="bottom-liner">
-                        <h2 class="justHeading">My Request</h2>
-                        <div class="dates-wrapper">
-                            <div class="date-cards">
-                                <div class="type">
-                                    <p class="texton1">Request type</p>
-                                    <div class="orovchi">
-                                        <img class="dot" src="./assets/profPhotos/red.png" alt="red dot">
-                                        <p class="texton2 sick">Sick Leave</p>
-                                    </div>
-                                </div>
-                                <div class="duration">
-                                    <p class="texton1">Duration</p>
-                                    <p class="texton2">3 days</p>
-                                </div>
-                                <div class="day">
-                                    <p class="texton1">Start Day</p>
-                                    <p class="texton2">Sep 13, 2020</p>
-                                </div>
-                                <div class="endDay">
-                                    <p class="texton1">End Day</p>
-                                    <p class="texton2">Sep 16, 2020</p>
-                                </div>
-                                <button class="process process1">Pending</button>
-                            </div>
-
-                            <div class="date-cards">
-                                <div class="type">
-                                    <p class="texton1">Request type</p>
-                                    <div class="orovchi">
-                                        <img class="dot" src="./assets/profPhotos/purple.png" alt="purple dot">
-                                        <p class="texton2 sick">Work remotely</p>
-                                    </div>
-                                </div>
-                                <div class="duration">
-                                    <p class="texton1">Duration</p>
-                                    <p class="texton2">1 days</p>
-                                </div>
-                                <div class="day">
-                                    <p class="texton1">Start Day</p>
-                                    <p class="texton2">Sep 1, 2020</p>
-                                </div>
-                                <div class="endDay">
-                                    <p class="texton1">End Day</p>
-                                    <p class="texton2">Sep 2, 2020</p>
-                                </div>
-                                <button class="process process2">Approved</button>
-                            </div>
-
-                            <div class="date-cards">
-                                <div class="type">
-                                    <p class="texton1">Request type</p>
-                                    <div class="orovchi">
-                                        <img class="dot" src="./assets/profPhotos/blue.png" alt="blue dot">
-                                        <p class="texton2 sick">Vocation Leave</p>
-                                    </div>
-                                </div>
-                                <div class="duration">
-                                    <p class="texton1">Duration</p>
-                                    <p class="texton2">1 days</p>
-                                </div>
-                                <div class="day">
-                                    <p class="texton1">Start Day</p>
-                                    <p class="texton2">Sep 1, 2020</p>
-                                </div>
-                                <div class="endDay">
-                                    <p class="texton1">End Day</p>
-                                    <p class="texton2">Sep 2, 2020</p>
-                                </div>
-                                <button class="process process2">Approved</button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        
-
     </main>
-
-    <script src="./scripts/profile.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
