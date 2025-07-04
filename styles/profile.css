@@ -217,11 +217,12 @@ root {
 /* TEAM */
 .team {
     display: none;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     gap: 1rem;
     margin-top: 2rem;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .hero-card {
@@ -230,7 +231,7 @@ root {
     align-items: center;
     justify-content: center;
     gap: 0.3rem;
-    width: 16rem;
+    width: 13rem;
     height: 13rem;
     background-color: var(--white);
     border-radius: var(--main-border-radius);
@@ -386,6 +387,11 @@ root {
 
 .project {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    justify-content: center;
 }
 
 
