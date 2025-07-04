@@ -1,10 +1,10 @@
 # CRM Dashboard
 
-A modern, powerful, and user-friendly CRM Dashboard for your business needs.
+Zamonaviy, kuchli va foydalanuvchi uchun qulay CRM Dashboard — biznesingiz uchun eng yaxshi tanlov!
 
 ---
 
-## 🏆 Project Overview | Loyiha haqida
+## 🏆 Loyiha haqida
 
 **CRM Dashboard** — bu zamonaviy, tezkor va qulay boshqaruv paneli bo‘lib, kompaniyangizdagi barcha jarayonlarni bir joyda boshqarish imkonini beradi. Ilova HTML5, CSS3 va Vanilla JavaScript asosida yaratilgan, hech qanday murakkab kutubxona yoki frameworklarsiz ishlaydi — tez, yengil va moslashuvchan!
 
@@ -12,59 +12,59 @@ A modern, powerful, and user-friendly CRM Dashboard for your business needs.
 
 ---
 
-## 🚀 Features | Asosiy imkoniyatlar
+## 🚀 Asosiy imkoniyatlar
 
-- **Dashboard** — Real-time analytics, quick stats, and beautiful UI
-- **Projects** — Project management, task tracking, and team overview
-- **Calendar** — Event and task scheduling with a clean calendar view
-- **Vacation** — Employee leave management and tracking
-- **Employees** — Staff directory with roles, levels, and photos
-- **Events** — Upcoming events and reminders
-- **Info Portal** — Company news and information hub
-- **Profile** — User profile and account settings
-
----
-
-## 📁 Folder Structure | Papkalar tuzilmasi
-
-- `assets/` — Images, icons, and logos
-- `scripts/` — Modular JavaScript files for all logic
-- `styles/` — Modular CSS for each section
-- `sign/` — Registration and authentication pages
-- `*.html` — Main pages for each section
+- **Dashboard** — Real vaqtli tahlillar, tezkor statistikalar va chiroyli interfeys
+- **Loyihalar (Projects)** — Loyiha boshqaruvi, vazifalar va jamoa ko‘rinishi
+- **Kalendar** — Tadbir va vazifalarni rejalashtirish uchun qulay taqvim
+- **Ta’til (Vacation)** — Xodimlarning ta’til holatini boshqarish va nazorat qilish
+- **Xodimlar (Employees)** — Xodimlar ro‘yxati, rollar, darajalar va suratlar
+- **Tadbirlar (Events)** — Yaqinlashib kelayotgan tadbirlar va eslatmalar
+- **Ma’lumotlar portali (Info Portal)** — Kompaniya yangiliklari va axborot markazi
+- **Profil** — Foydalanuvchi profili va akkaunt sozlamalari
 
 ---
 
-## ⚙️ Technologies Used | Ishlatilgan texnologiyalar
+## 📁 Papkalar tuzilmasi
 
-- **HTML5** — Semantic, accessible markup
-- **CSS3** — Modular, responsive, and modern design
-- **Vanilla JavaScript** — Modular, maintainable, and fast
-
----
-
-## 💡 Why Choose This Project? | Nima uchun aynan shu loyiha?
-
-- **No dependencies** — Faqat toza kod, tez yuklanadi va oson sozlanadi
-- **Fully responsive** — Har qanday qurilmada ideal ko'rinish
-- **Easy to customize** — Kengaytirish va o'zgartirish juda oson
-- **Clean code** — Oson tushuniladi va rivojlantiriladi
-- **Modern UI/UX** — Foydalanuvchi uchun qulay va zamonaviy interfeys
+- `assets/` — Rasm, ikonka va logotiplar
+- `scripts/` — Barcha funksionallik uchun modul JavaScript fayllari
+- `styles/` — Har bir bo‘lim uchun alohida CSS uslublar
+- `sign/` — Ro‘yxatdan o‘tish va avtorizatsiya sahifalari
+- `*.html` — Har bir bo‘lim uchun asosiy sahifalar
 
 ---
 
-## 🚦 Getting Started | Boshlash
+## ⚙️ Ishlatilgan texnologiyalar
 
-1. Download or clone the repository:
+- **HTML5** — Semantik va qulay belgilash
+- **CSS3** — Modul, moslashuvchan va zamonaviy dizayn
+- **Vanilla JavaScript** — Modul, tez va oson rivojlantiriladigan kod
+
+---
+
+## 💡 Nima uchun aynan shu loyiha?
+
+- **Hech qanday tashqi kutubxona yo‘q** — Faqat toza kod, tez yuklanadi va oson sozlanadi
+- **To‘liq moslashuvchan** — Har qanday qurilmada ideal ko‘rinish
+- **Oson sozlanadi** — Kengaytirish va o‘zgartirish juda oson
+- **Toza kod** — Oson tushuniladi va rivojlantiriladi
+- **Zamonaviy UI/UX** — Foydalanuvchi uchun qulay va zamonaviy interfeys
+
+---
+
+## 🚦 Boshlash
+
+1. Loyihani yuklab oling yoki klonlang:
    ```bash
    git clone <repo-url>
    ```
-2. Open the project folder and launch `index.html` in your browser.
+2. Loyihani oching va `index.html` faylini brauzerda ishga tushiring.
 
 ---
 
-## ⚠️ License & Copyright
+## ⚠️ Mualliflik huquqi
 
-> **Diqqat!** Ushbu kod mualliflik huquqlari bilan himoyalangan. Koddan ruxsatsiz foydalanish, ko'chirish yoki tarqatish taqiqlanadi.
+**Diqqat!** Ushbu kod mualliflik huquqlari bilan himoyalangan. Koddan ruxsatsiz foydalanish, ko'chirish yoki tarqatish taqiqlanadi.
 
-> **Note:** This code is protected by copyright. Unauthorized use, copying, or distribution is strictly prohibited.
+ **Note:** This code is protected by copyright. Unauthorized use, copying, or distribution is strictly prohibited.
