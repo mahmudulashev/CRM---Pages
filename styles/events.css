@@ -199,7 +199,12 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 0.1rem;
+    padding-top: 0.5rem;
+}
+
+.popup-top span {
+    cursor: pointer;
 }
 
 .overlay {
@@ -394,6 +399,7 @@ form  span > span  {
     display: flex;
     align-items: center;
     padding: 0.3rem;
+    cursor: pointer;
 }
 form div > span span {
     display: flex;
@@ -444,7 +450,7 @@ form div > span span {
 .ochil-1 {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     gap: 0.7rem;
 
@@ -454,7 +460,7 @@ form div > span span {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0.8rem;
 }
 
@@ -483,10 +489,11 @@ form div > span span {
         padding: 0.7rem;
         width: 154px;
         display: flex;
-        justify-content: center;
-        align-items: center;
         border-radius: var(--secondary-border-radius);
         color: var(--gray);
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
 }
 
 .salom {
@@ -496,8 +503,7 @@ form div > span span {
 
 .ochil div {
     display: flex;
-    align-items: start;
-    justify-content: start;
+    cursor: pointer;
     gap: 0.5rem;
     width: 100%;
 }
@@ -506,8 +512,15 @@ form div > span span {
     height: 20px;
     width: 20px;
     accent-color: var(--blue);
+    cursor: pointer;
 }
 
 input::checkmark {
     background-color: var(--blue);
+}
+
+.day1.active, .day.active {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: var(--secondary-border-radius);
 }

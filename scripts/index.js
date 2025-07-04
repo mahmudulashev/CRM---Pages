@@ -62,7 +62,12 @@ function projectQo(project) {
                                 </span>
                                 <span>
                                     <p>Assignees</p>
-                                    <h5>${project.assignees.length}</h5>
+                                    <h5><div class="avatar-container">
+                                    <div class="avatar avatar-1"><img src="${employees[0].img}" alt=""></div>
+                                    <div class="avatar avatar-2"><img src="${employees[1].img}" alt=""></div>
+                                    <div class="avatar avatar-3"><img src="${employees[2].img}" alt=""></div>
+                                    <div class="avatar avatar-more">+2</div>
+                                   </div></h5>
                                 </span>
                             </div>
                         </div>

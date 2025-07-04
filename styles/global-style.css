@@ -37,6 +37,11 @@ body {
 a {
     text-decoration: none;
     color: black;
+    transition:all 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 svg {
@@ -214,6 +219,7 @@ header {
     gap: 10px;
     padding: 15px 20px;
     border-radius: var(--secondary-border-radius);
+    cursor: pointer;
 }
 
 /* SEARCH BAR */
