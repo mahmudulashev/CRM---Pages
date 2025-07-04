@@ -27,15 +27,15 @@ root {
 .hero {
     display: flex;
     align-items: start;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: start;
+    gap: 2rem;
     width: 100%;
     margin-top: 20px;
 }
 
 /* HERO RIGHT */
 .hero-right {
-    width: 23%;
+    width: 19rem;
     height: 100%;
     background-color: var(--white);
     border-radius: var(--main-border-radius);
@@ -389,10 +389,12 @@ root {
 
 
 /* SETTINGS */
+
 .settings {
     display: none;
-    justify-content: start;
-    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
 }
 
 .settings-btn {
@@ -406,3 +408,43 @@ root {
     border-radius: var(--secondary-border-radius);
     box-shadow: var(--box-shadow);
 }
+
+.button-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: var(--secondary-border-radius);
+    font-family: var(--main-font);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.settings-div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: 2rem;
+}
+
+.settings-left {
+    width: 17rem;
+    height: 100vh;
+    background-color: var(--white);
+    border-radius: var(--main-border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.settings-right {
+    width: 40rem;
+    height: 100vh;
+    background-color: var(--white);
+    border-radius: var(--main-border-radius);
+    box-shadow: var(--box-shadow);
+} 
