@@ -22,7 +22,7 @@ for (let i = 0; i < 8; i++) {
 }
 
 function projectQo(project) {
-    let project1 = ` <div class="projects-card">
+    let project1 = ` <a href="./project.html?id=${project.id}"> <div class="projects-card">
                         <div class="card-left">
                             <div class="card-left-top">
                                 <img src="./assets/other-photos/Image.svg" alt="">
@@ -71,7 +71,7 @@ function projectQo(project) {
                                 </span>
                             </div>
                         </div>
-                    </div>`;
+                    </div></a>`;
     return project1;
 }
 

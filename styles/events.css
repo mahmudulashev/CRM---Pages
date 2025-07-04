@@ -2,6 +2,7 @@
     --white: rgba(255, 255, 255, 1);
     --gray: rgba(125, 133, 146, 1);
     --blue: rgba(63, 140, 255, 1);
+    --blue-hover: rgb(10, 109, 229);
     --yellow: rgba(255, 189, 33, 1);
     --pink: rgba(222, 146, 235, 1);
     --green: rgba(10, 201, 71, 1);
@@ -86,6 +87,10 @@
     cursor: pointer;
 }
 
+.add-employee:hover {
+    transition: all 0.3s ease;
+    background-color: var(--blue-hover);
+}
 
 /* EVENTS */
 .events {
@@ -109,6 +114,13 @@
     background-color: var(--white);
     padding: 1.7rem 2rem ;
     border-radius: var(--main-border-radius);
+}
+
+.hero-right-card:hover {
+    transition: all 0.3s ease;
+    box-shadow: var(--box-shadow);
+    scale: 1.02;
+    cursor: pointer;
 }
 
 .hero-right-card div {
@@ -523,4 +535,9 @@ input::checkmark {
     background-color: var(--blue);
     color: var(--white);
     border-radius: var(--secondary-border-radius);
+}
+
+button:hover {
+    transition: all 0.3s ease;
+    background-color: var(--blue-hover);
 }
