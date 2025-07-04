@@ -334,7 +334,7 @@ form select {
 .hero-cards {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 2rem;
     margin-top: 2rem;
     flex-wrap: wrap;
