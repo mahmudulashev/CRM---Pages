@@ -237,6 +237,13 @@ root {
     border-radius: var(--main-border-radius);
 }
 
+.hero-card:hover {
+    transition: all 0.3s ease;
+    box-shadow: var(--box-shadow);
+    scale: 1.02;
+    cursor: pointer;
+}
+
 .hero-card img {
     width: 70px;
     height: 70px;
@@ -282,6 +289,13 @@ root {
     background-color: var(--white);
     border-radius: var(--main-border-radius);
     box-shadow: var(--box-shadow);
+}
+
+.projects-card:hover {
+    transition: all 0.3s ease;
+    box-shadow: var(--box-shadow);
+    scale: 1.02;
+    cursor: pointer;
 }
 
 .card-left {
