@@ -31,6 +31,7 @@ root {
     gap: 2rem;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 3rem;
 }
 
 /* HERO RIGHT */
@@ -436,6 +437,7 @@ root {
 .settings-left {
     width: 17rem;
     height: 100vh;
+    /* SHU JOYINI 100% QILIB O'ZGARTIRASA */
     background-color: var(--white);
     border-radius: var(--main-border-radius);
     box-shadow: var(--box-shadow);
@@ -443,7 +445,8 @@ root {
 
 .settings-right {
     width: 40rem;
-    height: 100vh;
+    height: 100vh;  
+    /* SHU JOYINI 100% QILIB O'ZGARTIRASA */
     background-color: var(--white);
     border-radius: var(--main-border-radius);
     box-shadow: var(--box-shadow);
