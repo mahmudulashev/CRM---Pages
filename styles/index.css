@@ -300,6 +300,12 @@
     box-shadow: var(--box-shadow);
 }
 
+.projects-card:hover {
+    transition: all 0.3s ease;
+    box-shadow: var(--box-shadow);
+    scale: 1.01;
+}
+
 .card-left {
     display: flex;
     flex-direction: column;

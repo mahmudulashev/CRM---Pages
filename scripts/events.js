@@ -99,7 +99,6 @@ button.addEventListener('click', () => {
     else  ochil.classList.add('hidden');
 })
 
-// .day1 uchun
 document.querySelectorAll('.kunlar .day1').forEach(day1 => {
     day1.addEventListener('click', function() {
         document.querySelectorAll('.kunlar .day1').forEach(d => d.classList.remove('active'));
@@ -107,7 +106,6 @@ document.querySelectorAll('.kunlar .day1').forEach(day1 => {
     });
 });
 
-// .day uchun
 document.querySelectorAll('.ochil-2 .day').forEach(day => {
     day.addEventListener('click', function() {
         document.querySelectorAll('.ochil-2 .day').forEach(d => d.classList.remove('active'));
