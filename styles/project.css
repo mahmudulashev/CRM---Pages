@@ -41,9 +41,13 @@
 .people-2 {
     display: flex;
 }
+<<<<<<< HEAD
 .people-2 p {
     color: var(--gray);
 }
+=======
+
+>>>>>>> 3d5cbd9284f05f5c16a7bfe2c7b7c1233fa4de11
 
 .div-people-ichki-img-text {
     display: flex;
