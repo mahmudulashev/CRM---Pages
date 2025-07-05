@@ -35,7 +35,7 @@
     height: 180px;
     margin: 20px;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: var(--main-border-radius);
 }
 
 .div-people-div-orabturuvchi1 h3 {
