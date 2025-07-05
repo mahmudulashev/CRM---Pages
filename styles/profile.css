@@ -549,13 +549,3 @@ root {
     border-radius: var(--main-border-radius);
     box-shadow: var(--box-shadow);
 } 
-.div-people-ichki-img-text{
-    display: flex;
-    align-items: center;
-}
-.div-people-div-orabturuvchi p {
-    color: gray;
-}
-.people-div-rasmvamatn{
-    display: flex;
-}
