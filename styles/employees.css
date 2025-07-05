@@ -2,6 +2,7 @@
     --white: rgba(255, 255, 255, 1);
     --gray: rgba(125, 133, 146, 1);
     --blue: rgba(63, 140, 255, 1);
+    --blue-hover: rgb(10, 109, 229);
     --yellow: rgba(255, 189, 33, 1);
     --pink: rgba(222, 146, 235, 1);
     --green: rgba(10, 201, 71, 1);
@@ -57,6 +58,7 @@
     line-height: 100%;
     letter-spacing: 0px;
     text-align: center;
+    cursor: pointer;
 
 
 }
@@ -102,6 +104,10 @@
     cursor: pointer;
 }
 
+.add-employee:hover {
+    background-color: var(--blue-hover);
+}
+
 /* EMPLOYEE */
 .employees-table {
     width: 100%;
@@ -126,6 +132,14 @@
     border-radius: var(--secondary-border-radius);
 
 
+}
+
+.employees-name:hover {
+    background-color: var(--background-color-2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--box-shadow);
+    scale: 1.01;
 }
 
 
@@ -218,6 +232,15 @@
     padding: 1rem;
 }
 
+.popup-top span {
+    cursor: pointer;
+}
+
+.popup-top span:hover {
+    opacity: 0.5;
+    scale: 1.05;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -290,7 +313,10 @@ form select {
     color: var(--white);
     cursor: pointer;
     box-shadow: var(--box-shadow);
+}
 
+.popup button:hover {
+    background-color: var(--blue-hover);
 }
 
 /* Notification message */
@@ -342,7 +368,7 @@ form select {
 
 .hero-card {
     width: 300px;
-    height: 320px;
+    height: 330px;
     border-radius: var(--main-border-radius);
     background-color: var(--white);
     align-items: center;
@@ -350,6 +376,13 @@ form select {
     display: flex;
     padding: 10px;
     gap: 20px;
+}
+
+.hero-card:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--box-shadow);
+    scale: 1.02;
 }
 
 .hero-card-div {
@@ -385,6 +418,7 @@ form select {
     line-height: 26px;
     letter-spacing: 0px;
     text-align: center;
+    padding: 0.5rem;
 
 }
 
